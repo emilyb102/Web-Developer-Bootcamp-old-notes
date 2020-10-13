@@ -1,0 +1,47 @@
+How to give one of the computer fonts!*/
+/*font family*/
+p	{
+	font-family: "Arial";
+}
+/*font-size, how big the font is*/
+/*font-size*/
+p {
+	font-size: 25px;
+}
+/*font-size em-this keeps the font relative to the parent. So this span is
+twice the size of the font of the paragraph parent element, very handy.
+Most people will set a font size on the body, and then use em for
+everything-so you create a base size with the body and go from there. */
+ span {
+ 	font-size: 2em;
+ }
+
+ /*font-weight, how thick the lines are of the font. Some fonts
+ will let you use 100, 200, 300, to 800, otherwise it's bold and 
+ some others I don't know yet. */
+
+ p {
+ 	font-weight: bold;
+ }
+
+ /*line-height. the number will multiply by the current line height of the 
+ font*/
+p {
+	line-height: 2;
+}
+
+/*text-align, you can have the text go left, right, center.*/
+h1 {
+	text-align: center;
+}
+
+/*text-decoration gives underlines, overlines, strikethrough*/
+h1	{
+	text-decoration: underline;
+}
+
+
+/*GOOGLE FONTS, WHOOHOO!*/
+h2	{
+	font-family: 'Cinzel', serif;
+}
