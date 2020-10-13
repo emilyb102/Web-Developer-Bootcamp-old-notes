@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Complex Form</title>
+</head>
+<body>
+<!-- Okay, the steps here: 
+1. Overall form
+2. Register Heading
+3. First and last name text box
+	-Use 'for' and 'id' to do the labelling, and make sure you're giving each a name to assign the value to (don't assign a value, it'll be the name they give)
+	-You'll want to make sure they're required & have a placeholder tex
+4. Male/Female Radio
+	-connect the radio tags with a name so it's an either or, assign value to both so the computer knows what value to send depending on which is selected
+5. Email & password 
+ 	-easy enough, just make sure it's required
+6. Birthday dropdown menu
+	-You'll be using 3 separate menus with select|option (like ul|li)
+	-To group them together on one line maybe you put them in a paragrapH? I think you'll put a 'p' around each group. Or maybe a list? Let's try list first. Well no, that'll give bullet points. Okay, just try nothing then group with p if necessary
+	Nope! It was divs. When you tried spans it all went in one line. YOu did one big div below register, and then div'd each line
+7. Terms and conditions menu
+	-Simple checkbox input
+8. Submit button
+	-2 ways, but you can just do simple button tag-->
+
+<!-- 1. Overall form -->
+<form action="/sign-in-url" method="post">
+<!-- 2. Heading -->
+	<h1>Register</h1>
+<div id="wholeform">
+<!-- 3. First and last name text box -->
+	<div>
+		<label for="firstname">First Name:</label>
+		<input type="text" name="firstname" id="firstname" required placeholder="Emily">
+		<label for="lastname">Last Name:</label>
+		<input type="text" name="lastname" id="lastname" required placeholder="Buckner">
+	</div>
+<!-- 4. Male/Female Radio -->
+	<div>
+		<label for="male">Male</label>
+		<input id="male" type="radio" name="gender" value="male" required>
+		<label for="female">Female</label>
+		<input id="female" type="radio" name="gender" value="female" required>
+	</div>
+<!-- 5. Email and password -->
+<!-- You had to get fancy here with the pattern attribute and a regular expression (regex), and then use
+this setcustomvalidity thing that I don't know-there's probably a better way.
+For validating against regular expressions, see https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation , and you can click the Regular expression link to get more in depth on that-->
+	<div>
+		<label for="email">Email:</label>
+		<input id="email" type="email" name="email" required placeholder="myemail@gmail.com">
+		<label for="password">Password:</label>
+		<input id="password" type="text" name="password" required pattern="(5,10)" oninvalid="setCustomValidity('Your Password must be between 5-10 characters')" placeholder="Your Password">
+	</div>
+<!-- 6. Birthday drop down -->
+	<div>
+		<label>Birthday:
+			<select name="Month">
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>March</option>
+			</select>
+			<select name="Day">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+			<select name="Year">
+				<option>1994</option>
+				<option>1995</option>
+				<option>1996</option>
+			</select>
+		</label>
+	</div>
+<!-- 7. terms checkbox -->
+	<div>
+		<label for="Terms">I agree to the terms and conditions</label>
+		<input id="Terms" type="checkbox" name="Termsandconditions" required value="Yes">
+	</div>
+<!-- 8. Submit button-->
+	<div>
+		<input type="Submit">
+	</div>
+</div>
+</form>
+
+
+</body>
+</html>
