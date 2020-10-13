@@ -1,0 +1,20 @@
+p	{
+	/*Content-width & height. You can set it as a % of the page*/
+width: 50%;
+
+/*border*/
+border: 2px solid blue;
+
+/*Padding-space between the element and the border. You can also do 
+padding left, right.*/
+
+padding: 15px;
+
+/*Margin is the space on the outside of the border*. You can also do margin 
+top, left, etc. If you're specifying each one, it's clockwise starting from 
+the top: top, right, bottom, left. Instead of a # you can put auto and it will
+automatically center*/
+margin: 20px 40px 500px 100px
+
+/**/
+}
