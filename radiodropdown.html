@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Radio and Dropdown
+	</title>
+</head>
+<body>
+	<input type="radio">
+	<input type="checkbox">
+
+<p>Do you prefer cats or dogs?</p>
+	<!-- If you just put 2 radio inputs, you can pick both 
+		How do we get it so they're connected & you can only pick one? 
+		Give them both the same name attribute! -->
+<form>
+	<label for="dogs">Dogs:</label>
+	<input id="dogs" name="petChoice" type="radio" value="DOGS">
+	<!-- With the value attribute, you're saying what the value of the decision is. So if they choose dog, under the name petchoice, store DOGS-->
+	<label for="cats">Cats:</label>
+	<input id="cats" name="petChoice" type="radio" value="CATS">
+
+<!-- Select gives you a drop down menu! it's like ul and li, but select and option
+give it a name so they browser knows where to assign the decision, if they choose red we want it to store that under the name color.You can change the value to something else.-->
+	<select name="color">
+		<option value="Red">Red</option>
+		<option value="Green">Green</option>
+		<option value="Blue">Blue</option>
+	</select>
+<!-- text area tag gives you a box to type stuff. You can specify how big it is with rows and cols-->
+	<textarea name="paragraph" rows="10" cols="10"></textarea>
+	<BUTTON>Woot Woot</BUTTON>
+</form>
+</body>
+</html>

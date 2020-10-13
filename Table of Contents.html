@@ -1,0 +1,3953 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Developer Boot Camp Table of Contents</title>
+	<link rel="stylesheet" type="text/css" href="TableofContentsCss.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+<h1>Web Developer Bootcamp</h1>
+<ul>
+	<table>
+		<tr>
+			<td>Commonly Used Links:</td>
+			<td class="middlerow">Inspiration:</td>
+		</tr>
+		<tr>
+			<td><a href="https://www.udemy.com/course/the-web-developer-bootcamp/learn/lecture/9670490#questions" target="_blank">Udemy</a></td>
+			<td class="middlerow"> <a href="https://www.youtube.com/watch?v=OFzXaFbxDcM" target="_blank">Mr. Rogers</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a></td>
+			<td class="middlerow"><a href="https://vimeo.com/85040589" target="_blank">Ira Glass</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://github.com/" target="_blank">GitHub</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://coolors.co/5eb09c">Color Picker</a></td>
+		</tr>
+	</table>
+
+</ul>
+
+<ol>
+<li class="section">Section 1: Introduction to this Course</li>
+	<ul>
+		<li>Resource: Github CodeTalk for questions</li>
+		<li>94% of graduates go on to get Developer Jobs</li>
+		<li>Keep a vision of the overall Roadmap</li>
+	</ul>
+<li class="section">Section 2: Introduction to Front End Development</li>
+	<ol> Unit Objectives
+		<li>Compare & Contrast Front/Backend</li>
+			<ul>
+				<li>What you see & interact with/logic</li>
+			</ul>
+		<li>Define roles HTML, CSS, Javascript</li>
+			<ul>
+				<li>Noun, Adjective, Verb</li>
+			</ul>
+	</ol>
+<li class="section">Section 3: Introduction to HTML</li>
+	<ol>Unit Objectives
+		<li>
+			Write Properly structured HTML docs
+				<ul>
+					<li>Boilerplate: html, tab</li>
+					<li>Comments, Ctrl/</li>
+				</ul>
+		</li>
+		<li>
+			Write common closing/self-closing tags
+				<ul>
+					<li>
+						Basic element General Rule: < tagName> Some content < /tagName >
+					</li>
+					<li>
+						For <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">elements</a> (created using tags) & <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank">attributes</a>, search MDN reference for each 
+					</li>
+					<li>
+						Ordered (ol), Unordered lists (ul), wrap that around li (see this doc as an example)
+					</li>
+						<ul>
+							<li>Exercise, recreate <a href="HTMLlistassignment.jpg" target="_blank">This Outline</a>, see <a href="HTMLlistassignment.html" target="_blank">HTMLlistassignment</a> for solution
+							</li>
+						</ul>
+					<li>
+						Div and span allow you to group content, generic container. Div is a block level element (like h1), span is inline (like ol)
+					</li>
+					<li>
+						So Div will push things to the next line, span will not
+					</li>
+					<li> Bird's eye view: <strong>Elements, Tags, and Attributes</strong>
+						<ul> 
+							<li>Anatomy of an Element <p><img src="Taganatomy.jpg" height="200"></p>
+							</li>
+							<li>Anatomy of an Attribute <p><img src="Attributeanatomy.jpg"></p></li>
+							<li>Better anatomy of an Attribute <p><img src="Attributeanatomy2.jpg"></p></li>	
+						</ul>
+					</li>
+					<li> img and a (anchor) tags
+						<ul>
+							<li>img tags are self closing, use a src attribute
+								<p><img src="srcex.jpg" height="100"></p>
+							</li>
+							<li>anchor tags use an href attribute. You put the link text in between the opening & closing tag <p><img src="anchorex.jpg" height="30"></p>
+							</li>
+
+						</ul>	
+					</li>
+				</ul>
+		</li>
+		<li>
+			Recreate simple website based on provided photo
+		</li>
+			<ul>This is the site to recreate
+				<li>
+					<div>
+						<img src="htmlwebageassignment.jpg" height="500">
+					I did this instead
+						<img src="htmlbasicwebpageheadcozy.jpg">
+					</div>
+				</li>
+				<li>
+					For the code, see <a href="basicwebpageassignment.html" target="_blank">basicwebpageassignment.html</a>
+				</li>
+			</ul>
+
+	</ol>
+<li class="section">Section 4: Intermediate HTML</li>
+	<ol> Objectives
+		<li>Write Valid HTML Tables
+			<ul>
+				<li>
+				For table, tr is like ul (stands for table row) th and td are like li (th is for header row, td following rows)
+				</li>
+				<li>
+				For better format, wrap with thead and tbody
+				</li>
+				<li>
+					<thead>
+						<th>
+							<td>
+						Pokemon exercise vs <a href="Table Exercise.html" target="_blank">what I did</a>, (see Table exercise.html for code)	
+							</td>
+						</th>
+					</thead>
+					
+					<p>
+					<tbody>
+						<tr>
+							<td>
+								<img src="pokemonex.jpg">
+							</td>
+							<td>
+								<img src="birdtable.jpg">
+							</td>
+						</tr>
+					</tbody>
+					</p>
+				</li>
+			</ul>
+		</li>
+		<li>
+			Write validated HTML Forms using these tags:( But first, here is what simple form code looks like, how these tags fit together:)
+			<ul>  <img src="simpleform.jpg">
+				<li>< form>
+					<ul>
+						<li>
+							<img src="formbasics.jpg" height="200" >
+						</li>
+						<li>
+							At this point just know that action and method exists-mehod is where the form data is being sent, method is the type of request. The two big ones are post and get. If you're google searching it's a get request, if you're filling out a form and sending it's a post request.
+						</li>
+					</ul>
+				</li>
+				<li> < input >
+					<ul>
+						<li>
+							<img src="Inputexamples.jpg">
+						</li>
+						<li>
+							Look at how many things you can get by changing type attribute
+						</li>
+						<li>
+							To find all of the types availalble for the input tag, search MDN input, or go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" target="_blank">here</a>.
+						</li>
+						<li>
+							<thead>
+								<th>
+									<td>
+									Playing with input <a href="Simpleform.html">example</a>, (see Simpleform.html for code).
+									Notice how varied the inputs are just by changing the type attribute!	
+									</td>
+								</th>
+							</thead>
+					
+							<p>
+							<tbody>
+								<tr>
+									<td>
+										<img src="inputdemopage.jpg">
+									</td>
+									<td>
+										<img src="inputdemocode.jpg">
+									</td>
+								</tr>
+							</tbody>
+							</p>
+						</li>
+					</ul>
+				</li>
+				<li> < label >
+					<ul>
+						<li>
+							allow us to add captions to individual elements in a form
+						</li>
+						<li>
+							There are 2 syntaxes, one where the input is inside the label tag, and the other with a 'for' and 'id'
+						</li>
+						<li>
+							<img src="labelsexample.jpg" height="600">
+						</li>
+						<li>
+							See <a href="labelsexample.html" target="_blank">here</a> for code (or labelsexample.html). Notice that you can nest the input inside the label, or create the label with a for attribute that you then assign to the input with an id attribute.
+						</li>
+					</ul>
+				</li>
+				<li> and write simple validations
+					<ul>
+						<li>
+							ability to enforce rules and structure
+						</li>
+						<li>
+							For example, you can't leave your password blank
+						</li>
+						<li>
+							2 examples: Just add the 'required' tag to your text input, and then you can't leave it blank
+						</li>
+						<li>
+							Other example, add required attribute to email tag. Not only do you have to fill it out, you also have to do it in email formatting with an @ sign.
+						</li>
+						<li>
+							<img src="simplevalidations.jpg">
+						</li>
+						<li>
+							See <a href="Simplevalidations.html" target="_blank">Simplevalidations.html</a> for code. Notice the email input and the password input, we added the required attribute to both.
+						</li> 
+					</ul>
+				</li>
+				<li>
+					And understand radios and dropdowns
+					<ul>
+						<li>
+							Here are the basics of name and value attributes and how they interact, ad how it allows you to link the 2 radio buttons so that only one can be chosen.
+						</li>
+						<li>
+							<img src="radioexample.jpg">
+						</li>
+						<li>
+							<img src="selectexample.jpg">
+						</li>
+						<li>
+							See <a href="radiodropdown.html" target="_blank">radiodropdown.html</a> for code.
+						</li> 
+					</ul>
+				</li>
+
+			</ul>  
+		</li>
+		<li>Recreate Complex Form
+			<ul>
+				<li>
+					Create this form
+				</li>
+				<li>
+					<img src="formexercise.jpg">
+				</li>
+				<li>
+					Validations Required: First name, last name, email
+				</li>
+				<li>
+					Bonus: password must be between 5 and 10 characters long (new type of validation you haven't learned)
+				</li>
+				<li>
+					See <a href="Complexformexercise.html" target="_blank">Complexformexercise.html</a> for code. 
+				</li>
+			</ul>
+		</li>
+	</ol>
+<li class="section">Section 5: Introduction to CSS</li>
+	<ol> Unit Objectives
+		<li>
+			Define the "General Rule" CSS
+			<ul>
+				<li>
+					<img src="CSSgeneralrule.jpg">
+				</li>
+				<li>
+					<img src="CSSgeneralexamples.jpg">
+				</li>
+			</ul>
+		</li>
+		<li>
+			Correctly include CSS in your HTML files
+		</li>
+			<ul>
+				<li>
+					<img src="puttingcssinhtml.jpg">	
+				</li>
+				<li>
+					It's just a link tag to a separate css file
+				</li>
+				<li>
+					Put the link tag to your css style sheet in the head
+				</li>
+			</ul>
+		<li>
+			Select elements by tag name, class, and ID
+			<ul>
+				<li>
+					BROADEST: First you have the element selector, it's the broadest. You're selecting the type of a tag (div, li, body, etc)
+				</li>
+				<li>
+					<img src="elementselector.jpg">
+				</li>
+				<li>
+					NARROWEST: include an ID hook in your html, and you can select that one specific instance of that tag, it can only appear on the page one time.
+				</li>
+				<li>
+					<img src="idselectorexample.jpg">
+				</li>
+				<li>
+					MIDDLE: Class selector is like ID, but you can broaden it to include more than one
+				</li>
+				<li>
+					<img src="classselectorexample.jpg">
+				</li>
+				<li>
+				
+					<tr> 
+						<thead>
+							<th>
+								IN SUMMARY: (These 3 images of the to do list go together)
+							</th>
+						</thead>
+						<div>
+						<tbody>
+							<td>
+								<img src="todocssexample.jpg">
+							</td>
+							<td>
+								<img src="todoselectorhtml.jpg">
+							</td>
+						</tbody>
+						</div>
+					</tr>
+				</li>	
+				<li>
+					......Will give you this. Tada! 
+					<img src="todowebpageexample.jpg">
+				</li>	
+
+			</ul>
+		</li>
+		<li>
+			Style elements with basic properties like color and background
+				<ol>
+					<li>
+						Color
+						<ul>
+							<li>Resources:</li>
+							<li>pLACEHOLDER</li>
+							<li>Placeholder</li>
+						</ul>
+						<ul>
+							<li>
+								Two main types: Hexadecimal and RGB
+								<ul>
+									<li>
+										Hexadecimal
+										<ul>
+											<li>	
+												<img src="hexadecimal.jpg">
+											</li>
+											<li>
+												With normal decimal it is base 10, we have 10 choices for each slot (0-9). With Hexadecimal you have 16.
+											</li>
+											<li>
+											 		# _ _ _ _ _ _ Logic=Red: Green: Blue
+											</li>
+											<li>
+										
+												So the first 2 determine how much red, and so on
+											</li>
+											<li>
+												#FFFFFF=White, it's like light
+											</li>
+										</ul>
+									</li>
+									<li>
+										RBG
+										<ul>
+											<li>
+												<img src="RGBbasics.jpg">
+											</li>
+											<li>
+												Still in base 10
+											</li>
+											<li>
+												Look at the examples: each one corresponds to how much red, green and blue. So in the first it's green full blast at 255. 
+											</li>
+											<li>
+												Similar to hexadecimal, it's based on light-so full blast (255, 255, 255) will give you white.
+											</li>
+											<li>
+												rgba will be exactly the same, except the 4th chanel ranges from 0.0-1.0, it controls transparancy. 1 is opaque. .2 is much more transparent than .6. 
+											</li>
+											<li>
+												<img src="rgbaexample.jpg">
+											</li>
+										</ul>
+									</li>
+								</ul>
+					</li>
+							
+					<li>
+						Background and Border
+						<ul>
+							<li>
+								Background
+								<ul>
+									<li>
+										<img src="backgroundexample.jpg">
+									</li>
+									<li>
+										color and background are 2 properties, but with background you can put an image in, not just a color
+									</li>
+									<li>
+										<img src="backgroundimageexample.jpg">
+									</li>
+									<li>
+										Just throw the url in instead of a color
+									</li>
+									<li>
+										It'll usually tile it; to prevent use the background-repeat: no repeat;
+									</li>
+									<li>
+										To get it to stretch out use background-size: cover;
+									</li>
+								</ul>
+							</li>
+							<li>
+								Border
+								<ul>
+									<li>
+										<img src="borderexample.jpg">	
+									</li>
+									<li>
+										Each border has 3 pieces, and won't work without all 3: <strong>width, color, style</strong>
+									</li>
+									<li>
+										You can do each separately, but the shortuct syntax is better, it specifies width, style, and color in 1 line. 
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ol>
+		</li>
+		<li>
+			Use Chrome CCS Inspector to debug HTML and CSS
+			<ul>
+				<li>
+					Super handy for testing stuff out, you can change things without editing the doc, and only put it in if you want it.
+				</li>
+				<li>
+					It's also great for seeing how other people did things. 
+				</li>
+			</ul>
+		</li>
+		<li>
+			Exercise: CSS Selector Scavenger Hunt
+			<ul>
+				<li>
+					<a href="https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048">Handy list of Selectors</a>
+				</li>
+				<li>
+					Example, if you use * it will select every element on the page
+				</li>
+				<li>
+					Here is a list of a few cool selectors besides element, class, and id: 
+				</li>
+				<li>
+					<img src="Moreselectors.jpg">
+				</li>
+				<li>
+					Inheritance and Specificity, Cascade
+				</li>
+				<li>
+					If you set a property on a parent, it can affect the child
+				</li>
+				<li>
+					The child's going to listen to the most specific property set on it
+				</li>
+				<li>
+					If you have multiple styles targeting one element, the highest specificity (least general) will win
+				 </li>
+				<li>
+					<a href="https://specificity.keegan.st/">Specificity calculator</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity">MDN article</a>and if you want to get more specific (lol): 
+				</li>
+				<li>
+					<img src="selectorspef.jpg">
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a href="selectorsExercise.html">Selector Scavenger Hunt</a> handy list of selector examples, See SelectorsExercise.html and selectorcise.css for code
+				</li>
+				<li>Here are the different problems piece by piece</li>
+				<ol>
+					
+					<li>
+						<img src="S1.jpg">
+						<ul>
+							<li>Simple element selector, you're just selecting the body tag</li>
+						</ul>
+					</li>
+
+					<li>
+						<img src="S2.jpg">
+						<ul>
+							<li>Again, simple element, all h1s</li>
+						</ul>						
+					</li>
+
+					<li>
+						<img src="S3.jpg">
+						<ul>
+							<li>Simple element</li>
+						</ul>					
+					</li>
+					
+					<li>
+						<img src="S4.jpg">
+						<ul>
+							<li>Simple element, had to use color picker to find a color</li>
+						</ul>						
+					</li>
+					
+					<li>
+						<img src="S5.jpg">
+						<ul>
+							<li>Element selector, simple color background</li>
+						</ul>					
+					</li>
+
+					<li>
+						<img src="S6.jpg">
+						<ul>
+							<li>
+								Element selector, more complex border property
+							</li>
+							<li>
+								Note the order of the syntax: width, style, color
+							</li>
+						</ul>						
+					</li>
+
+					<li>
+						<img src="S7.jpg">
+						<ul>
+							<li>Class selectors! .whatevertheclass is, in this case .hello</li>
+							<li>And to get an all white backround you use the color #FFFFFF</li>
+						</ul>						
+					</li>
+
+					<li>
+						<img src="S8.jpg">
+						<ul>
+							<li>Id selector! #</li>
+						</ul>						
+					</li>
+
+					<li>
+						<img src="S9.jpg">
+						<ul>
+							<li>Descendent selector! This selects a nested element. And font-size property</li>
+						</ul>
+					</li>
+
+					<li>
+						<img src="S10.jpg">
+						<ul>
+							<li>Attribute selector! You put the tag and then racket the attribute</li>
+						</ul>						
+					</li>
+					<li>
+						<img src="S11.jpg">
+						<ul>
+							<li>nth of type-this one's a little tricky. First you had to figure out that it was a descendent thing: p is the nested eleent. Once you knew that it was easy to do a nth of type for div.</li>
+						</ul>
+					</li>
+					<li>
+						<img src="S12.jpg">
+						<ul>
+							<li>Another nth of type brain twister</li>
+						</ul>
+					</li>
+
+					<li>
+						<img src="S13.jpg">
+						<ul>
+							<li>I had to think about this-em is just an element tag. It's the only one in there, so we didn't have to get fancy. Em italicizes (emphasizes) things</li>
+						</ul>
+					</li>
+					<li>
+						<img src="S14.jpg">
+						<ul>
+							<li>I had to go find this one on a different website</li>
+							<li>
+								<img src="checked.jpg">
+							</li>
+							<li>So it's one pice attribute seector, followed by checked</li>
+						</ul>
+					</li>
+
+					<li>
+						<img src="S15.jpg">
+						<ul>
+							<li>
+								Text transform property can chhange everything to uppercase
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<img src="S16.jpg">
+						<ul>
+							<li>
+								This was another you had to dig up	
+							</li>
+							<li>
+								<img src="pseudoelementexample.jpg">
+							</li>
+							<li>
+								You use it to style fragments of an element, like first letter in this case.
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<img src="S17.jpg">
+						<ul>
+							<li>
+								Another look up, changing something when it's hovered over
+							</li>
+							<li>
+								<img src="hover.jpg">
+							</li>
+						</ul>						
+					</li>
+				<div>	
+					<li>
+						<img src="S18.jpg">
+						<ul>
+							<li>
+								When something's visited, change it (usually color)
+							</li>
+							<li>
+								<img src="visited.jpg">
+							</li>
+						</ul>				
+					</li>
+				</div>	
+				</ol>
+			</ul>
+
+		</li>
+	</ol>
+<li class="section">Section 6: Intermediate CSS</li>
+	<ol>Unit Objectives
+		<li>
+			Manipulae common font and text properties using CSS
+			<ul>
+				<li>
+					Basics of fonts
+					<ul>
+						<li>
+							Use font-family to change the font of something
+						</li>
+						<li>
+							<img src="fontfamily.jpg">
+						</li>
+						<li>
+							Change the size with font-size
+						</li>
+						<li>
+							<img src="fontsize.jpg">
+						</li>
+						<li>
+							Em is a relative font size
+						</li>
+						<li>
+							<img src="em.jpg">
+						</li>
+						<li>
+							Most people set a body font size in px (like 10px), and then use em for the rest
+						</li>
+						<li>
+							font weight is how thick the lines are
+						</li>
+						<li>
+							<img src="fontweight.jpg">
+						</li>
+						<li>
+							line height does spacing, it multplies by the current spacing on the font (larger fonts=larger spacing)
+						</li>
+						<li>
+							<img src="lineheight.jpg">
+						</li>
+						<li>
+							To center something (or align right, left), use text-align
+						</li>
+						<li>
+							<img src="textalign.jpg">
+						</li>
+						<li>
+							text decoration lets you do things like underline, strikethrough
+						</li>
+						<li>
+							<img src="textdecoration.jpg">
+						</li>
+						<li>If you want this code, see <a href="fonts.html">fonts.html</a></li> and <a href="fonts.css">fonts.css</a>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			Include external fonts using Google fonts
+			<ul>
+				<li>
+					Google Fonts
+					<ul>
+						<li>
+							Go to <a href="https://fonts.google.com/">fonts.google.com</a>
+						</li>
+						<li>
+							Find the font you want, select it in regular 400, and copy the embed link 
+						</li>
+						<li>
+							<img src="googlefontregular400.jpg">
+						</li>
+						<li>
+							<img src="googlefontsembed.jpg">
+						</li>
+						<li>
+							Then just copy the embed link into the head of your html! 
+						</li>
+						<li>
+							In the link, see what family=, that's what you'll use in your CSS: 
+						</li>
+						<li>
+							<img src="googlefonthtml.jpg">
+						</li>
+						<li>
+							<img src="googlefontscss.jpg">
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>			
+		<li>
+			Define and manipulate the four components of th Box Model
+			<ul>
+				<li>
+					Box model is the concept that every element is surrounded by a box, and it as 4 edges: margin, border, pading, and content
+				</li>
+				<li>
+					<img src="boxmodelmdn.jpg">
+				</li>
+				<li>
+					<img src="boxmodeldiagram.jpg">
+				</li>
+				<li>
+					From this diagram, you can see that content is the element, padding is the space between the element and the border, the border is the border, and the margin is what's around the border.
+				</li>
+				<li>
+					So if you wanted to space things out, you'd normally use margin
+				</li>
+				<li>
+					<ol>
+						4 part box demo, see <a href="boxes.html">Boxes.html</a> and <a href="boxes.css">boxes.css</a> for code
+						<li>
+							Border
+							<ul>
+								<li>
+									<img src="boxes1.jpg">
+								</li>
+								<li>
+									This is the base code with no styling: 2 bland paragraphs
+								</li>
+								<li>
+									Now let's look at the border, let's give the paragraphs a solid blue border
+								</li>
+								<li>
+									<img src="boxes3.jpg">
+								</li>
+								<li>
+									Notice that the content goes all the way across the screen. To change a width we'd change the content. 
+								</li>
+							</ul>
+						</li>
+						<li>
+							Content	
+							<ul>
+								<li>
+									Content changes width and height, here we'll change the width
+								</li>
+								<li>
+									<img src="boxes4.jpg">
+								</li>
+								<li>
+									We can also change the height
+								</li>
+								<li>
+									<img src="boxes5.jpg">
+								</li>
+								<li>
+									We can also do width and height in %! It's the % of the parent element
+								</li>
+								<li>
+									<img src="boxes6.jpg">
+								</li>
+								<li>
+									This is really cool because then it makes things responsive as you change window size
+								</li>
+							</ul>
+						</li>
+						<li>
+						Padding	
+							<ul>
+								<li>
+									Padding is between the content and the border
+								</li>
+								<li>
+									<img src="boxes7.jpg">
+								</li>
+								<li>You don't have to do it all around, you can just do it on the left</li>
+								<li>
+									<img src="boxes8.jpg">
+								</li>
+							</ul>
+						</li>
+						<li>
+							Margin
+							<ul>
+								<li>
+									Space on the outside of the border, between elements
+								</li>
+								<li>
+									It looks similar to padding
+								</li>
+								<li>
+									<img src="boxes9.jpg">
+								</li>
+								<li>
+									<img src="boxes11.jpg">
+								</li>
+								<li>
+									Just like border we can consolidate the syntax: Top, right, bottom, left (clockwise)
+								</li>
+								<li>
+									<img src="boxes12.jpg">
+								</li>
+								<li>
+									You can also use auto, it centers things for us
+								</li>
+								<li>
+									<img src="boxes13.jpg">
+								</li>
+								<li>
+									The second line is shorthand: this will make the top and right 0, auto, and bottom left 0, auto
+								</li>
+							</ul>	
+						</li>
+					</ol>
+				</li>
+				<li>
+					Recap: content=blue, padding=green, border=blue, margin=orange
+				</li>				
+				<li>
+					<img src="boxes10.jpg">
+				</li>
+
+			</ul>
+		</li>
+		<li>
+			Tic Tac Toe Board Project
+			<ul>
+				<li>
+					<table>
+						<tr>
+							<td>
+								<img src="tictacsol.jpg">
+							</td>
+							<td>
+								<img src="tictacsol2.jpg">
+							</td>
+						</tr>
+					</table>
+				</li>
+				<li>
+					<img src="tictac3.jpg">
+				</li>
+				<li>
+					If you want the code, see <a href="ticsol.html">"ticsol.html"</a> and <a href="ticsol.css">ticsol.css</a>
+				</li>
+				<li>
+					Basically, you created a table & figured out that the horizontal boxes needed a top and bottom border, and the vertical left and right. In addition the table and heading needed to be centered, and the width of the boxes trimmed down (otherwise it'd cover the whole page), and it neeed to be square. 
+				</li>
+			</ul>
+		</li>
+		<li>
+			Image Gallery Portfolio site Project
+			<ul>
+				<li>
+					Images and divs are block level elements (they take up a whole line), by default. To change this we need to use the float property. If you do float-left, it's like the gravity's gone out of your document, and the next element will float up and push left against the preceding. It also gets rid of the weird white space that html automatically adds between photos.
+				</li>
+				<li>
+					Here's the code along. First we added a bunch of images into html. In CSS the first thing was figuring out the spacing. HTML auto adds weird white space, so we did float left to get rid of that so we can add our own.
+				</li>
+				<li>
+					From there we went with width of 30% (3 photos per line)
+				</li>
+				<li>
+					To figure out the margin, we did some math. We counted up how many margin sides went across. It was 6, 1 on either side of each photo. We knew that we had 10% left after the 3 30s, so we just divided 10 by 6 to get 1.66. 
+				</li>
+				<li>
+					<table>
+						<tr>
+							<td>
+								<img src="mountaingallery1.jpg">
+							</td>
+							<td>
+								<img src="mountaingallery2.jpg">
+							</td>
+						</tr>
+					</table>
+				</li>
+				<li>
+					From there you just changed the header text, easy, and added a border on the bottom as a nice line. Notice that you put it in line by using the same %s as the photos, they correspond. Pretty cool! 
+				</li>
+				<li>
+					And here's what it looks like! 
+				</li>
+				<li>
+					<img src="mountaingallery3.jpg">
+				</li>
+				<li>
+					If you want the code, see <a href="photogrid.html">"photogrid.html"</a> and <a href="photogrid.css">photogrid.css</a>
+				</li>				
+			</ul>
+		</li>
+		<li>
+			Minimalist Blog Site Exercise
+			<ul>
+				<li>
+					Here's what we're going for
+				</li>
+				<li>
+					<img src="blog1.jpg">
+				</li>	
+				<li>
+					Here's how we got there! 
+				</li>
+				<li>
+					You created the basic html format, a div box article, and then within an h3 with a date class, an h1 heading, and 3 paragraphs. The first paragraph has an indent class
+				</li>				
+				<li>
+					<table>
+						<tr>
+							<td>
+								<img src="blog2.jpg">
+							</td>
+							<td>
+								<img src="blog3.jpg">
+							</td>
+						</tr>
+					</table>
+				</li>
+				<li>
+					From there it was just a matter of styling. First you got the body how you wanted it, with a border, taking up 80% of the page, centered, and some padding to widen it a bit YOu changed the body font too. 
+				</li>
+					Then it was just a matter of styling your calsses, the date and the indent paragraph. The date yo changed to uppercase. The indent paragraph you gave it a left border, you centered it, and had it be 80% width of parent, and centered it too
+				<li>
+				<li>
+					Last note, you put an hr tag, and there's a million ways to style one. 
+				</li>
+					Here's a link to one page, <a href="https://css-tricks.com/examples/hrs/">hr code examples</a>
+				</li>
+				<li>
+					You can find more in codepen, etc.
+				</li>
+				<li class="celebration">
+					You made it through Css! Woot Woot! 
+				</li>
+			</ul>
+		</li>
+	</ol>
+<li class="section">Section 7: Bootstrap (3)</li>
+	<ol>
+		Unit Objectives
+		<li>
+			Define Bootstrap and explain why we use it
+		</li>
+		<li>
+			Include bootstrap locally and by using a CDN
+		</li>
+		<li>
+			Use common Bootrap components like navs and buttons
+		</li>
+		<li>
+			Build a layout using the Bootrap grid system
+		</li>
+		<li>
+			Image Gallery Project
+		</li>
+		<li>
+			Startup Landing Page Project
+		</li>
+	</ol>
+<li class="section">Section 8: Bootstrap 4!</li>
+<li class="section">Section 9: Bootstrap 4: Flexbox and Layout</li>
+<li class="section">Section 10: Introduction to JavaScript</li>
+	<ol>
+		Unit Objectives
+		<li>
+			Evaluate JS using the developer console
+			<ul>
+				<li>Super simple, just go to console in inspect element section</li>
+			</ul>
+		</li>
+		<li>
+			List the 5 JS primitives
+			<ol> These vary in languages. In JS, 5 categories of data types: Numbers, Strings, Booleons, null, and undefined
+				<li>
+				Numbers
+					<ul>
+						<li>
+							<img src="primitives1.jpg">
+						</li>
+						<li>
+							JS doesn't care if i's whole or positive, really broad category
+						</li>
+						<li>
+							Here's some stuff you can do in the console: 
+						</li>
+						<li>
+							<img src="primitives4.jpg">
+						</li>
+					</ul>	
+				</li>
+
+				<li>
+					Strings
+					<ul>
+						<li>
+							Basically text
+						</li>
+						<li>
+							<img src="primitives2.jpg">
+						</li>
+						<li>
+							enclosed in quotes
+						</li>
+						<li>
+							If you put numbers in quotes, it'd be a string
+						</li>
+						<li>
+							Here are some things you can do in the console
+						</li>
+						<li>
+							<img src="primitives5.jpg">
+						</li>
+						<li>
+							You can add them, just like numbers. If you need double quotes within double quotes, you can 'break' it with a backslash. If you need a backslash the escape is a double backslash (lol).
+						</li>
+						<li>
+							You can calculate the length of a string with .length property
+						</li>
+						<li>
+							You can also access individual characters with brackets. The number inside the bracket will correspond to the positiion in the string of the character that we want, and spits out the character. If I want the first character i put [0] in brackets to get it (js starts counting at 0).
+						</li>
+					</ul>	
+				</li>
+
+				<li>
+					Booleons
+					<ul>
+						<li>
+							Only have 2 options, they're either true or false
+						</li>
+						<li>
+							<img src="primitives3.jpg">
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					Null
+					<ul>
+						<li>
+							This is just a value, there's only one (unlike the other 3 that have multiple options)
+						</li>
+						<li>
+							Means explicitly nothing, unlike undefined where it's something that hasn't been defined yet
+						</li>
+					</ul>	
+				</li>
+
+				<li>
+					Undefined
+					<ul>
+						<li>
+							Like Null, it's just a value, there's only 1
+						</li>
+						<li>
+							If we never set a variable, leave the container opened, it defaults to undefined, it just hasn't been defined yet-unlike null, where the value is explicitly nothing
+						</li>
+					</ul>
+				</li>
+			</ol>
+			<ul>
+				<li>
+					Quick Exercises
+				</li>
+				<li>
+					<img src="primitives6.jpg">
+				</li>
+				<li>
+					This is the mod, the remainder operator. It'll divide 3 into 100. It goes evenly into 100 33 times, leaving 1 left over. So the answer will be
+				</li>
+				<li>
+					-->1
+				</li>
+				<li>
+					<img src="primitives7.jpg">
+				</li>
+				<li>
+					It will follow PEMDAS, so first it will add the parentheses to blahblah, and then find the 6th character (which is really the 7th, it's the 6th index, it starts at 0-if you put in 0 it would give you b), so the answer is
+				</li>
+				<li>
+					-->a
+				</li>
+				<li>
+					<img src="primitives8.jpg">
+				</li>
+				<li>
+					So it would be (5)% then the backslash escapes so it's only (3), 5%3 would be...
+				</li>
+				<li>
+					-->2
+				</li>
+			</ul>
+		</li>
+		<li>
+			Define variabes with the var keyword
+			<ul>
+				<li>
+					Basic concept, a variable is a jar that we store some data in, and give the jar a name so we can refer to it later
+				</li>
+				<li>
+					So we could have a variable of current login user, and that username could vary, but then you'd have certain things accessible to current login user, and logged out user
+				</li>
+				<li>
+					Here is the basic syntax
+				</li>
+				<li>
+					<img src="variables2.jpg">
+				</li>
+				<li>
+					So var yourVariableName = yourValue;
+				</li>
+				<li>
+					Here are some examples
+				</li>
+				<li>
+					<img src="variables3.jpg">
+				</li>
+				<li>
+					So if I put that firs bit of code into the js console
+				</li>
+				<li>
+					<img src="variables4.jpg">
+				</li>
+				<li>
+					And then put in the jar/box/container/variable name (however you want to think about it)
+				</li>
+				<li>
+					<img src="variables5.jpg">
+					...it spits out what value (rusty) is currently assigned to the variable! 
+				</li>
+				<li>
+					You can also change the value contained in the variable, like this
+				</li>
+				<li>
+					<img src="variables6.jpg">
+				</li>
+				<li>
+					Now when you put in the variable container (name), it spits out the new assigned value (tater)
+				</li>
+				<li>
+					Here are some more examples
+				</li>
+				<li>
+					<img src="variables7.jpg">
+				</li>
+				<li>
+					Basically, variables are jars or containers that store stuff. We can change the value of the stuff inside, we can even change types. For example, if you set your variable to 43, you could change it later to a string, "bob"
+				</li>
+				<li>
+					Another note, variables are 'camel case' lol, where you write them where the firstword is lower case, next is upper squished against it. 
+				</li>
+				<li>
+					Really you use const and let more than var: 
+				</li>
+				<li>
+					<img src="variables8.jpg" height="200">
+				</li>
+				<li>
+					Here are the main differences between the two
+					<table>
+						<tr>
+							<td><img src="variables9.jpg" height="200"></td>
+							<td><img src="variables10.jpg" height="200"></td>
+						</tr>
+					</table>
+				</li>				
+			</ul>
+		</li>
+		<li>
+			Write code using console.log, alert, and prompt
+			<ul> quick note: comments in js is //. Methods are pieces of code that come with js. Think of them as variables that contain js code that can be executed.
+				<li>
+					alert
+					<ul>
+						<li>
+							<img src="variables11.jpg">
+						</li>
+						<li>
+							so you just type alert("put something here");
+						</li>
+					</ul>
+				</li>
+				<li>
+					console.log
+					<ul>
+						<li>
+							this just prints something within the console
+						</li>
+						<li>
+							<img src="variables12.jpg">
+						</li>
+					</ul>
+				</li>
+				<li>
+					prompt
+					<ul>
+						<li>
+							This prompts the user to enter something
+						</li>
+						<li>
+							<img src="variables13.jpg">
+						</li>
+						<li>
+							So you're just putting prompt("something something");
+						</li>
+						<li>
+							You can also store what a user says by storing a prompt in a variable
+						</li>
+						<li>
+							<img src="variables14.jpg">
+						</li>
+						<li>
+							Now whenever you put in 'username' it'll give you back what the user entered in the prompt box, 'rusty'
+						</li>
+					</ul>
+				</li>
+				<li>
+			How to include JS files in your html
+			<ul>
+				<li>
+					Super easy, save separate file under "blahblah.js", link it in your html with a script tag
+				</li>
+				<li>
+					<img src="variables15.jpg">
+				</li>
+				<li>
+					Cool mini project, let's get it ask us our name, and then when we put it in have it say hi
+				</li>
+				<li>
+					Here's the js code
+				</li>
+				<li>
+					<img src="variables16.jpg">
+				</li>
+				<li>
+					That will give you
+					<table>
+						<tr>
+							<td><img src="variables17.jpg"></td>
+							<td><img src="variables18.jpg"></td>
+						</tr>
+					</table>
+				</li>
+				<li>
+					Here's the code, <a href="includingjsfiles.html">includingjsfiles.html</a>, <a href="includingjs.js">"includingjs.js</a>
+				</li>
+				<li>
+					JS Stalker Exercise:
+				</li>
+				<li>
+					<img src="JS Stalker Exercise.jpg">
+				</li>
+				<li>
+					Here's the code and what it spits out in your console
+					<table>
+						<tr>
+							<td><img src="variables19.jpg"></td>
+							<td><img src="variables20.jpg"></td>
+						</tr>
+					</table>
+				</li>
+				<li>
+					If you want the code, <a href="JS Stalker.html">JS Stalker.html</a> & <a href="JS Stalker.js">JS Stalker.js</a>
+				</li>
+				<li>
+					Age Calculator Exercise
+				</li>
+				<li>
+					<img src="age calculator.jpg">
+				</li>
+				<li>
+					Pretty simple
+					<img src="agecalc.jpg">
+				</li>
+				<li>
+					If you want the code, <a href="Age Calculator.html">Age Calculator.html</a> and <a href="Age Calculator.js">Age Calculator.js</a>
+				</li>
+			</ul>
+		</li>
+			</ul>
+		</li>
+		
+		
+	</ol>
+<li class="section">Section 11: Javascript Basics: Control Flow</li>
+	<ol>
+		Making decisions and controlling the ways that our code runs
+		<div>Unit Objectives:</div>
+		<li>
+			Evaluate complex logical expressions
+			<ul>
+				<li>
+					The base: true or false
+				</li>
+				<li>
+					<img src="controlflow1.jpg">
+				</li>
+				<li>
+					Here are comparison operators in a chart
+				</li>
+				<li>
+					<img src="controlflow2.jpg">
+				</li>
+				<li>
+					Notice there are 2 ways to check for equality/nonequality. double equals performs type coercian. Always use triple equal, it's more sepcific. 
+				</li>
+				<li>
+					Look at these examples
+				</li>
+				<li>
+					<img src="controlflow3.jpg">
+				</li>
+				<li>
+					In the first one a == spits back true, even though one's a number, one's a string
+				</li>
+				<li>
+					In the second one the == equates undefined with null-two very different things!
+				</li>
+				<li>
+					Basically ==tries to match up types and make it true, ===is more precise
+				</li>
+				<li>
+					<img src="controlflow4.jpg">
+				</li>
+				<li>
+					Here are some weird quirks of ==. True == the string 1 is true, but if you do any other string it's false
+				</li>
+				<li>
+					Similarly, 0 =false is true
+				</li>
+				<li>
+					And like we've seen before is null == undefined is true
+				</li>
+				<li>
+					The weirdest one is that Nan (not a number) == Nan is false
+				</li>
+				<li>
+					Moral of the story: use ===
+				</li>
+				<li>
+					Logical Operators
+				</li>
+				<li>
+					<img src="controlflow5.jpg">
+				</li>
+				<li>
+					How do we chain together simpler boolean statements into more complex with multiple components? Logical operators. At the end of the day they're still going to evaluate to T/F, but there might be multiple pieces that evaluate to be T/F before the entire thing becomes T/F. 
+				</li>
+				<li>
+					There are 3 main logical operators: AND, OR, NOT
+				</li>
+				<li>
+					AND requires that both sides be true for it to spit out true
+				</li>
+				<li>
+					OR only requires that one side be true for the whole thing to be true
+				</li>
+				<li>
+					NOT doesn't take sides. It flips the value of whatever we put in it. If it were true, now it's false. 
+				</li>
+				<li>
+					Every value in js is truthy or falsy, even if they're not explicity so. So they have an inherent truthy or falsiness to the
+				</li>
+				<li>
+					<img src="controlflow8.jpg">
+				</li>
+					Here we're testing the truthiness of these things
+				<li>
+				<li>
+					Here's the general rule: 
+				</li>
+				<li>
+					<img src="controlflow9.jpg">
+				</li>
+
+					<ul>
+						Exercises! 
+						<li>
+							<img src="controlflow6.jpg">
+						</li>
+						<li>
+							The left side is false, the right true. It's an OR (||), so it will come out to <span class="capital">true</span>. 
+						</li>
+						<li>
+							<img src="controlflow7.jpg">
+						</li>
+						<li>
+							This one's an AND && at heart. Let's start on the left, with the ||. The left is true, the right is false, so it comes to true. But there's a NOT ! in front of it, so it's actually false. Okay. That short circuits it really, we know its going to be false. But for practice: On the right we have another &&. ON the left that's false, so we know the whole thing will be, but just for it's own sake, the right is true. So the whole thing is false, but the the NOT changes it to true. So on the left overall we have false, and on the right we have true...so it's <span class="capital">false</span>.
+						</li>
+						<li>
+							((Now using the truthiness/falsiness concept))
+						</li>
+						<li>
+							<img src="controlflow10.jpg">
+						</li>
+						<li>
+							Let's see, overall we've got an && bounded by a !. Let's do the left. "" with no space, that would be falsy. A simple string would be truthy, so the left is true. ON the right it's the string false, which would really be truthy. So the whole thing is True! But then negated. So the answer is... <span class="capital">false</span>.
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			Write 3-part JS conditional statemenets
+			<ul>
+				<li>
+					3 js key words:if, elseif, then
+				</li>
+				<li>
+					<img src="conditionals1.jpg">
+				</li>
+				<li>
+					Here's the logic we're trying to write: 
+				</li>
+				<li>
+					<img src="conditionals2.jpg">
+				</li>
+				<li>
+					First let's do the if you're less than 18 you can't get in.
+				</li>
+				<li>
+					<img src="conditionals3.jpg">
+				</li>
+				<li>
+					The if keyword takes a single expression inside a parentheses that it evaluates to be true or false. If it evaluates to be true, whatever code we put in the curly braces will be executed. So here, this text will only run if the age is less than 18A
+				</li>
+				<li>
+					<img src="conditionals4.jpg">
+				</li>
+				<li>
+					Works the same way as if, but it follows an if statement. It's a secondary thing you check, but only after the first one. where if the expression inside evaluates to be true, code will run. 
+				</li>
+				<li>
+					Now this is actually a little redundant. This else if is only going to run if the first if returned true-the only way it could do that is if someone put in 19 or higher. So really we only need to put if less than 21. 
+				</li>
+				<li>
+					<img src="conditionals5.jpg">
+				</li>
+				<li>
+					Else allows something to happen any other time. So if you're older than 18, and older than 21, this piece will run. 
+				</li>
+				<li>
+					<img src="conditionals6.jpg">
+				</li>
+				<li>
+					<ul>Exercises! 
+						<li>
+							<img src="conditionals7.jpg">
+						</li>
+						<li>
+							Answers:
+						</li>
+						<li>
+							<img src="conditionals8.jpg">
+						</li>
+						<li>
+							If you want the code, <a href="conditionalexercises.html">conditionalexercises.html</a> and <a href="conditionalexercises.js">conditionalexercises.js</a>
+						</li>
+						<li>
+							Guessing Game: There's a set number, and as you enter the browswer will give you clues until you get it. 
+						</li>
+						<li>
+							Here's the solution
+						</li>
+						<li>
+							<img src="conditionals9.jpg">
+						</li>
+						<li>
+							Pretty cool, you defined a variable, and then had to make an adjustment because the user entered guess will come back as a string. From there you just did a 3 part logic thing to return 3 different messages.
+						</li>
+						<li>
+							For code see <a href="game.html">game.html</a> and <a href="game.js">game.js</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			Write JS <em>while</em> loops and <em>for</em> loops
+			<ul>
+				<li>Intro to loops: Repeating things!</li>
+					<ol>
+						<li>
+							Understand the purpose of loops
+							<ul>
+								<li>
+									<img src="loops1.jpg">
+								</li>
+							</ul>
+						</li>
+						<li>
+							Define "DRY" code: don't repeat yourself! 
+							<ul>
+								<li>
+									<img src="loops2.jpg">
+								</li>
+								<li>
+									Loops are a fundamental tool we use to dry up our code. 
+								</li>
+							</ul>
+						</li>
+						<li>
+							Write simple while loops
+							<ul>
+								<li>
+									<img src="loops3.jpg">
+								</li>
+								<li>
+									Similar to an if statement, where if the condition is true, it will run the code. But with a loop it will keep on running the code, if only runs it once. 
+								</li>
+								<li>
+									Here's an example of how you could print numbers to 1-5, you start by setting the variable 1. (++ adds 1)
+								</li>
+								<li>
+									<img src="loops4.jpg">
+								</li>
+								<li>
+									Now let's try printing each character in a string
+								</li>
+								<li>
+									<img src="loops5.jpg">
+								</li>
+								<li>
+									We start with a string variable, "hello", and set the count variable to 0. Then we do 'while the count is less than the string length (5)' 'print out the string with a character at index of count'. Key things here: remember [0] prints the 1st character. So here we're just printing each character by setting a base variable of 0.  
+								</li>
+								<li>
+									Infinite loops; the condition we provide is never false.
+								</li>
+								<ul>
+									Exercises
+									<li>
+										<img src="loops6.jpg">
+									</li>
+									<li>
+										It's going to print 1,3,5,7,9, the odd numbers 1-9
+									</li>
+									<li>
+										<img src="loops7.jpg">
+									</li>
+									<li>
+										It's going to print 4,8,16,20, each number greater than 0 and less than or equal to 20 divisible by 4. 
+									</li>
+									<li>
+										Or to put it more concisesly, it prints all the multiples of 4 between 1 and 20
+									</li>
+									<li>
+										<img src="loops8.jpg">
+									</li>
+									<li>
+										This is an infinite loop. It will print 101, 100, all the way down to 0 (the var is -1 by this pt), and then it'll go -1, -2, -3, etc. 
+									</li>
+									<li>
+										While loops problem set
+									</li>
+									<li>
+										<img src="loops9.jpg">
+									</li>
+									<li>
+										<img src="loops10.jpg">
+									</li>
+									<li>
+										if you want the code, <a href="whileloopts.html">whileloopts.html</a> and <a href="whileloopts.js">whileloopts.js</a>
+									</li>
+									<li>
+										Pretty cool! Not as intimidating as it looks. 
+									</li>
+									<li>
+										Annoy-o-matic code along
+									</li>
+									<li>
+										<img src="loops11.jpg">
+									</li>
+									<li>
+										<img src="loops12.jpg">
+									</li>
+									<li>
+										This is really cool. We're asking for an answer from the user, and sayin gif it doesn't answer yes or yeah, keep asking 'are we the yet' until they do. A fancier version where it'll work if you have yeah or yes anywhere in your answer: 
+									</li>
+									<li>
+										<img src="loops13.jpg">
+									</li>
+									<li>
+										'index of' returns back the number where the letter you input occurs in the string, but if it doesn't exist it spits out-1
+									</li>
+									<li>
+										If you want the code: <a href="annoy.html">annoy.html</a> and <a href="annoy.js">annoy.js</a>
+									</li>
+								</ul>
+							</ul>
+						</li>
+					</ol>
+				<li>For Loops</li>
+					<ul>
+						<li>
+							Understand the purpose of for loops, Write valid for loops, Compare and contrast while loops and for loops
+							<ul>
+								<li>
+									For loops: initialize, condition, step
+								</li>
+								<li>
+									<img src="loops14.jpg">
+								</li>
+								<li>
+									Very similar to while loops: while count is less than 6, do this
+								</li>
+								<li>
+									The big difference: the variable only exists inside the loop
+								</li>
+								<li>
+									<img src="loops15.jpg">
+								</li>
+								<li>
+									Looking at this, in your head you can still think of it in terms of a while loop; while the initializing variable meets the condition run the code, and change the variable with that last piece. It cleans up while loops.
+								</li>
+								<li>
+									Here's another example of printing each character in a string
+								</li>
+								<li>
+									<img src="loops16.jpg">
+								</li>
+								<li>
+									In summary, in a for loop there are 3 parts: initiliaze where we declare a variable and set it to some initial value, condition when the loop should keep running, and the step, what we should do at the end of each iteration.
+								</li>
+							</ul>
+						</li>
+						<li>
+							Exercises:
+							<ul>
+								<li>
+									<img src="loops17.jpg">
+								</li>
+								<li>
+									This is only going to be true twice, when i=0 and i=8, so it's just going to print 0,8
+								</li>
+								<li>
+									<img src="loops18.jpg">
+								</li>
+								<li>
+									The condition is that i is less than string.length, which counting up that string is 10. So i needs to be less than 10. We're counting by 2, so that will be 1, 3, 5, 7, 9. Now here I'm getting confused between .length and [],lets go find that real quick. 
+								</li>
+								<li>
+									<img src="loops19.jpg">
+								</li>
+								<li>
+									Ah okay, so that's finding the letter of the string according to an index, starting at 0. By that logic it's going to spit out h, e, l,l,o-hello! Lol.
+								</li>
+							</ul>
+						</li>
+
+					</ul>
+			</ul>
+			
+		</li>
+		<li>
+			Translate between <em>while</em> and <em>for</em> loops
+			<ul>
+				<li>
+					<img src="loops20.jpg">
+				</li>				
+				<li>
+					So we're taking the while loops from before and translating-surprisingly easy! Here are the solutions: 
+				</li>
+				<li>
+					<img src="loops21.jpg">
+				</li>
+				<li>
+					<img src="loops22.jpg">
+				</li>
+				<li>
+					<img src="loops23.jpg">
+				</li>
+				<li>
+					<img src="loops24.jpg">									
+				</li>
+				<li>
+					If you want the code, <a href="forloops.html">forloops.html</a> and <a href="forloops.js">forloops.js</a>
+				</li>				
+			</ul>
+		</li>
+	</ol>
+<li class="section">Section 12: Javascript Basics: Functions</li>
+	<ol>
+		<li>
+			Write function declarations and function expressions
+			<ul>
+				<li>
+					Introduction to Functions
+					<ul>
+						<li>
+							Understand why we use functions
+							<ul>
+								<li>
+									Functions are sort of like a variable, but for lines of code. So if a normal variable will store a value (like "hello"), a function will store 20 lines of code
+								</li>
+								<li>
+									Functions are reusable code buckets
+								</li>
+								<li>
+									<img src="functions1.jpg">
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					Declaration vs. Expression
+					<ul>
+						<li>
+							There are 2 different syntaxes for declaring a function. A Function declaration is what we've been using. A Function expression writes a variable and set it equal to a function. The big difference is in this expression, if you decide to change capitlize to 10 or 15, your function is lost. You can overwrite your variable and lose your function.
+						</li>
+						<li>
+							<img src="functions11.jpg">
+						</li>
+					</ul>
+				</li>
+				<li>
+					Exercises
+					<ul>
+						<li>
+							<img src="functions12.jpg">
+						</li>
+						<li>
+							-->30
+						</li>
+						<li>
+							<img src="functions13.jpg">
+						</li>
+						<li>
+							It will return 80 and that's it-once a funtion returns, it's done.
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			Explain the difference between console.log and return
+			<ul>
+				<li>
+					Return a value from a function
+					<ul>
+						<li>
+							Functions are like a machine, it takes some inputs, and then it returns something at the end, an output. So far our functions have only taken something in, not sent anything back.
+						</li>
+						<li>
+							<img src="functions6.jpg">
+						</li>
+						<li>
+							If we use return, we can capture the value that's being calculated. Otherwise you parse something in there, and the result isn't stored anywhere.  
+						</li>
+
+					</ul> 
+				</li>					
+				<li>
+					Look, at the top you don't put return and it's undefined. Then near the bottom you put return in (instead of console.log), and now when you parse 4 in that 16 is 'stored' 
+				</li>
+				<li>
+					<img src="functions7.jpg">
+				</li>
+				<li>
+					Now when you parse 4 into your funtion, that 16 is stored, and you can use it: 
+				</li>
+				<li>
+					<img src="functions8.jpg">
+				</li>
+				<li>
+					In a nutshell: we've only been seeing an output because we've been console.log ing, but that's not helpful-with return it makes the function a working machine. I can use square(4) to mean 16, I can use it as a puzzle piece. 
+				</li>
+				<li>
+					Another way of saying it: if we don't explicitly tell a function to return something, it returns undefined.
+				</li>		
+				<li>
+					We can store returns in variables, that's a powerful idea
+				</li>		
+			</ul>
+			<ul>
+				Let's go into that more in depth, returning and storing things in variables. 
+				<li>
+					<img src="functions9.jpg">
+				</li>
+				<li>
+					3 pieces: The machine, what it's returning, and how we're storing the output.
+				</li>
+				<li>
+					The machine: the function capitalize takes (str) and capitalizes it. 
+				</li>
+				<li>
+					What it's returning: If we put in 'paris' would return "Paris"
+				</li>
+				<li>
+					How we're storing it: first we're defining an external variable. In this cas city. Later we can change that city to be whatever we want, since it's just a box. Then we're making that variable what's being put in the machine, and storing the return in another variable, capital. 
+				</li>
+				<li>
+					This is something you'll do a lot, where you runa function, save the return value to a variable so we can use it somewhere else.
+				</li>
+				<li>
+					Also, the teturn keyword stops execution of a function
+				</li>
+				<li>
+					<img src="functions10.jpg">
+				</li>
+				<li>
+					So in this example, if you put in a number instead of a string, it'll spit back 'that's not a string' and be done, it won't run the second return to capitilize.
+				</li>
+			</ul>
+		</ul>
+		</li>
+		<li>
+			Define fuctions that take multiple arguments
+			<ul>
+				<li>
+					Define a function without arguments
+					<ul>
+						<li>
+							It's a 2 step process. First you declare it, and then you call it (run it). You declare the code bucket, and then you put stuff in it later. 
+						</li>
+						<li>
+							One distinction: if you type doSomething(),it'll execute the function, without the () it'll just refer to it.
+						</li>	
+						<li>
+							Functions help you dry up your code
+						</li>
+						<li>
+							<img src="functions2.jpg">
+						</li>
+						<li>
+											<img src="functions3.jpg">
+						</li>
+						<li>
+						In this you're storing the song in a function, now to repeat it you just have to input the function a few times
+						</li>
+					</ul>
+				</li>
+				<li>
+					Define a function with arguments
+		 			<ul>
+		 				<li>
+							What if we wanted a function sing song that could sing a different song? And I wanted to be able to call sing song and tell it which song to sing? 
+						</li>
+						<li>
+							Arguments are how we can write functions that take inputs
+						</li>
+						<li>
+		 					<img src="functions4.jpg">
+		 				</li>
+		 				<li>
+		 					We're putting the name of the argument in the parentheses
+		 				</li>
+		 				<li>
+		 					So when we call this function, we can change what num is and get back the square-pretty cool! 
+		 				</li>
+		 				<li>
+		 					Arguments make functions super powerful
+		 				</li>
+		 				<li>
+		 					Functions can take as many arguments as needed
+		 				</li>
+		 				<li>
+		 					<img src="functions5.jpg">
+		 				</li>
+		 				<li>
+		 					If you didn't define one of your arguments, it would spit back 'undefined', it won't break your code
+		 				</li>
+						<li>
+							The ability of functions to take arguments is pretty much the most important part of functions. It's not about repeating twinkle twover and over-it's about writing code and then being able to change it a little.
+						</li>
+					</ul>
+				</li>
+				<li>
+					Functions Problem Set
+					<ul>
+						<li>
+							<table>
+								<tr>
+									<td>
+										<img src="functions14.jpg">
+									</td>
+									<td>
+										<img src="functions17.jpg">
+									</td>
+								</tr>
+							</table>
+						</li>
+						<li>
+							isEven was pretty straightforward. Note the nifty shortcut! 
+						</li>
+						<li>
+							<table>
+								<tr>
+									<td>
+										<img src="functions15.jpg">
+									</td>
+									<td>
+										<img src="functions18.jpg">
+									</td>
+									<td>
+										<img src="arrays25.jpg">
+									</td>
+								</tr>
+							</table>													
+						</li>
+						<li>
+							Factorial-This one was really tricky. First you create the function, and num is going to be the input. Then we define a variable, result, and set it to 1. After that we runa  loop that will keep multiplying an ever incresing number until it reaches the number inputted, and then the result is returned. Pretty cool! 
+							Also that last solution is an alternate that counts down instead of up. 
+						</li>
+						<li>
+							<table>
+								<tr>
+									<td>
+										<img src="functions16.jpg">
+									</td>
+									<td>
+										<img src="functions19.jpg">
+									</td>
+								</tr>
+							</table>													
+						</li>						
+						<li>
+							This one you had to google how to replace a character in a string. Then you just saved the result to a variable, and returned the new variable. 
+						</li>
+						<li>
+							For the code see <a href="functions.html" target="_blank">functions.html</a> and <a href="functions.js" target="_blank">functions.js</a>
+						</li>
+					</ul>
+				</li>
+			</ul>			
+		</li>
+		<li>	
+			Discuss Scope and High Order Functions
+			<ol>
+				<li>
+					Scope
+					<ul>
+						<li>
+							<img src="functions20.jpg">
+						</li>
+						<li>
+							Wherever we have some codes, let's say it's within a function, that code is running in a specific context. It might have variables, properties. Scope is referring to whichever variables and properties are visible in that function. That could be different inside of another function. Or you might have nested functions with different scopes and variables
+						</li>
+						<li>
+							Example: declare a functions doMath
+						</li>
+						<li>
+							<img src="functions21.jpg">
+						</li>
+						<li>
+							All doMath does is declare a variable x=40, and then console.log x
+						</li>
+						<li>
+							It will just print 40
+						</li>
+						<li>
+							Within function x=40
+						</li>
+						<li>
+							Outside of the function x is undefined
+						</li>
+						<li>
+							We have 2 different scopes: outside of the function, in the global scope, x is undefined. Within the function it is. When we create a function it has its own scope and variables. 
+						</li>
+						<li>
+							Look, if we do define x in the globabl scope, if we run the function the variable is still 40 within that context: 
+						</li>
+						<li>
+							<img src="functions22.jpg">
+						</li>
+						<li>
+							Now there is a way to access variables within a function. If we define a variable outside a function, we can use it inside a function-but the opposite is not true: 
+						</li>
+						<li>
+							<img src="functions23.jpg">
+						</li>
+						<li>
+							Look, here we defined the variable y to be 99. Then we could have our function refer to it and use it. So a function can access outside variables, but you can't access inside function variables outside of the function, this is called child scope. 
+						</li>
+						<li>
+							Another example. What if we defined y within the function to be 100, but outside in the global scope i's still 99?
+						</li>
+						<li>
+							<img src="functions24.jpg">
+						</li>
+						<li>
+							 First we declared y to be 99 in the global scope. Then the function declared y to be 100, it changes y. When we print y it stays 99. But when we run doMoreMath it prints 100. Now when we type y again it's now 100. !
+						</li>
+						<li>
+							The function didn't just declare a new variable, it took the global declared one and changed it. 
+						</li>
+						<li>
+							Another example: 
+						</li>
+						<li>
+							<img src="functions25.jpg">
+						</li>
+						<li>
+							Here you declared the variable within the function with var, so it has no impact on the global one. 
+						</li>
+						<li>
+							Exercises: 
+						</li>
+						<li>
+							<img src="functions26.jpg">
+						</li>
+						<li>
+							This will return TRUE. basically you declared num t be 8 in global scope. Then you wrote a function, but did not run it. Then you changed 8 to 9, then you ran the function. The function to 9, added one to it, & checked to see if it's divisible by 5. 
+						</li>
+						<li>
+							<img src="functions27.jpg">
+						</li>
+						<li>
+							Here we created 2 functions. The first declared the name variable. The second wants to print that variable, but doesn't declare it. If we run the first one, we get rusty, but if we run the second, name hasn't been declared & is undefined. This goes to show that every function has its own scope and they're not shared between functions.
+						</li>
+					</ul>
+				</li>
+				<li>
+					Higher Order Functions
+					<ul>
+						<li>
+							Higher Order Function either take a function as an argument, or return another function (!). Here's an example, setInterval. This will take a function and call that function at a specific interval we provide. It's a way to have something repeat every second or half second. With a loop it just happens immediately.
+						</li>
+						<li>
+							First we'll write a function to write Twinkle Twinkle: 
+						</li>
+						<li>
+							<img src="functions28.jpg">
+						</li>
+						<li>
+							Then we write the interval function: 
+						</li>
+						<li>
+							<img src="functions29.jpg">
+						</li>
+						<li>
+							First we create set interval & it takes 2 arguments: another function, and an interval. In this case we want it to call sing, every 1000 milliseconds
+						</li>
+						<li>
+							That number it spits out (2) we can use to stop it with clearInterval(2).
+						</li>
+						<li>
+							Set interval is just one example of a higher order function. A higher order function is one where can pass another function to it as an argument, and we can return another argument.
+						</li>
+						<li>
+							There's one other change we could make. Sometimes we want to run some code, every second for instance, but we don't want to define a separate function ahead of time. 
+						</li>
+						<li>
+							We can do this with an anonymous function: 
+						</li>
+						<li>
+							<img src="functions30.jpg">
+						</li>
+						<li>
+							It's the same thing as above, but the function is defined in line. We can't call this function again. 
+						</li>
+						<li class="celebration">
+							Halfway through Javascript, you can do it! 
+						</li>
+					</ul>
+				</li>
+			</ol>
+		</li>
+	</ol>
+<li class="section">Section 13: Javascript Basics: Arrays</li>
+	This is a data structure. A variable just lets us store one bit of info. An array is one way to store more, a list.
+	<ol>
+		<li>
+			Define and add data to arrays
+			<ul>
+				<li>
+					<img src="arrays1.jpg">
+				</li>
+				<li>
+					We can group a list of variables that are not related
+				</li>
+				<li>
+					<img src="arrays2.jpg">
+				</li>
+				<li>
+					Just like characters in a string, arrays are also indexed starting at 0-so charlie is stored at 0.
+				</li>
+				<li>
+					<img src="arrays3.jpg">
+				</li>
+				<li>
+					We can use this list to retrieve data at a certain point in the index
+				</li>
+				<li>
+					<img src="arrays4.jpg">
+				</li>
+				<li>
+					We can also update arrays
+				</li>
+				<li>
+					<img src="arrays5.jpg">
+				</li>
+				<li>
+					we can add new data in
+				</li>
+				<li>
+					<img src="arrays5.jpg">
+				</li>
+				<li>
+					you can add a data point, a new one, but you can also change the array, just by setting a certain pt in the index = to something
+				</li>
+				<li>
+					<img src="array6.jpg">
+				</li>
+				<li>
+					We can initialize an array in 2 ways. These 2 are equivalent. Arrays can also hold anything, any type of data. 
+				</li>
+				<li>
+					They have length too! Just like a string, you're just counting the pieces, it's not indexed. 
+				</li>
+				<li>
+					<img src="arrays7.jpg">
+				</li>
+				<li>
+					See here when you did .length of the array it returned 3, not 2, just like it would in a string. When we retrieve a data piece we do that at an index. 
+				</li>
+			</ul>
+		</li>
+		<li>
+			Utilize built-in array methods
+			<ul> Here are a few built in methods
+				<li>
+					push/pop
+					<ul>
+						<li>
+							Before when we were trying to add a data point at the end of an array, we had to count where the index ends to know where to put it in. Push adds something to the very end of an array
+						</li>
+						<li>
+							<img src="arrays8.jpg">
+						</li>
+						<li>
+							When you push a value in, it'll return what pt of the index we're in (if we were at 5, it'll spit out 6). Pop will remove something from the end of an array, and returns the last item in the array that it removes. 
+						</li>
+					</ul>
+				</li>
+				<li>
+					shift/unshift
+					<ul>
+						<li>
+							Shift and Unshift they are similar, but add and remove from the firs item of an array. 
+						</li>
+						<li>
+							<img src="arrays9.jpg">
+						</li>
+						<li> Just note: IT'S OPPOSITE WHAT YOU THINK</li>
+						<li>
+							Unshift adds (+)
+						</li>
+						<li>
+							Shift removes (-)
+						</li>
+					</ul>
+				</li>
+				<li>
+					indexOf
+					<ul>
+						<li>
+							Takes an argument (string, number) and tries to find that argument in a given array. If it finds it, it returns the index of where it is found
+						</li>
+						<li>
+							<img src="arrays10.jpg">
+						</li>
+						<li>
+							If it doesn't find the given argument it spits back -1
+						</li>
+					</ul>
+				</li>
+				<li>
+					Slice
+					<ul>
+						<li>
+							Copies parts of an array
+						</li>
+						<li>
+							<img src="arrays11.jpg">
+						</li>
+						<li>
+							If you're specifying where to make the cuts, the first one is inclusive, the second is not. And it doesn't cut, it just copies. 
+						</li>
+						<li>
+							You can also copy an entire array by stetting an emptly.slice to a variable
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				Exercises
+				<li>
+					<img src="arrays12.jpg">
+				</li>
+				<li>
+					Undefined
+				</li>
+				<li>
+					<img src="array13.jpg">
+				</li>
+				<li>
+					Hermione and Harry. Wait, nope, these are nested arrays. So it's going to be "mooney, Wormtail, prongs" "Harry, Ron, Hermione". Nope.
+				</li>
+				<li>
+					So it's actually ["Mooney, "Wormtail", "Prongs"] and then ["Mooney"]. friendsGroup[2] returns this list. Then it's basically ["Mooney, "Wormtail", "Prongs"] [0], which is Mooney. So the second one isn't pulling from friendsGroup, it's pulling from the data set we retrieved rom friendGroups. 
+				</li>
+			</ul>
+		</li>
+		<li>
+			Exercise: Console ToDo List
+			<ul>
+				<li>
+					<table>
+						<tr>
+							<td>
+								<img src="arrays13.jpg">
+							</td>
+							<td>
+								<img src="arrays14.jpg">
+							</td>
+						</tr>
+					</table>													
+				</li>
+				<li>
+					So basically first you're setting a variable to be your array that holds your todos-in this case we have one in there, sleep. Then it's asking the user what they want to do, and the user has three choices: new, list, quit. 
+				</li>
+				<li>
+					For code see <a href="list.html" target="_blank">list.html</a> and <a href="list.js" target="_blank">list.js</a>
+				</li>
+			</ul>			
+		</li>
+		<li>
+			Array Iteration, how we can access every piece in an array, do some code to every item-iterating over a list, an array, looping through that array & doing something with or to that list
+			<ol>
+				<li>
+					Use a for loop to iterate over an array
+					<ul>
+						<li>
+							<img src="arrays15.jpg">
+						</li>
+						<li>
+							Ah, okay-so you know how .length will always be one more than []? This for loop takes advantage of that, to get it to print each data piece in the array
+						</li>
+					</ul>
+				</li>
+				<li>
+					Use forEach to iterate over an array
+					<ul>
+						<li>
+							<img src="arrays16.jpg">
+						</li>
+						<li>
+							It calls a function for each item, passes each item through it
+						</li>
+						<li>
+							If you define a function, then want to put it in a ForEach, make sure you don't pt ().
+						</li>
+					</ul>
+				</li>
+				<li>
+					Compare and contrast for loops and for Each
+					<ul>
+						<li>
+							<img src="arrays17.jpg">
+						</li>
+						<li>
+							 Big difference: for starts with a number and uses .length, that's abstracted away in forEach
+						</li>
+					</ul>
+				</li>
+				<li>
+					Exercises
+					<ul>
+						<li>
+							<img src="arrays18.jpg">
+						</li>
+						<li>
+							If the number's divisible by 3, it will be printed. This one was trying to trick you by naming the function argument and variable color, we're parsing through the numbers array, not the colors. 
+						</li>
+					</ul>
+					<ul>
+						<li>
+							Todo take 2: now with a delete feature
+							<table>
+								<tr>
+									<td>
+										<img src="arrays19.jpg">
+									</td>
+									<td>
+										<img src="arrays20.jpg">
+									</td>
+								</tr>
+							</table>	
+							The big thing here is that you cleaned up your while loop with functions. And you used a forEach loopto print todo list. And we introduced the .splice thing that takes away a bit of an array.												
+						</li>
+						<li>
+							If you want the code see <a href="list2.html" target="_blank">list2.html</a> and <a href="list2.js" target="_blank"> list2.js</a>
+						</li>
+					</ul>	
+					<ul>
+						Problem Set: if you want the code, see <a href="arrayproblems.html" target="_blank">arrayproblems.html</a> and <a href="arrayproblems.js" target="_blank">arrayproblems.js</a>
+						<li>
+							<table>
+								<tr>
+									<td>
+										<img src="arrays21.jpg">
+									</td>
+									<td>
+										<img src="arrays26.jpg" height="300">
+									</td>
+								</tr>
+							</table>
+							
+						</li>
+							<ul>
+								<li>
+									Hint: You'll need a loop
+								</li>
+							</ul>
+						<li>
+							<table>
+								<tr>
+									<td>
+										<img src="arrays22.jpg">
+									</td>
+									<td>
+										<img src="arrays27.jpg" height="300">
+									</td>
+									
+								</tr>
+							</table>
+						</li>
+							<ul>
+								<li>
+									Hint: You'll need a loop, and a variable that keeps track of the first item in the index, and compare that in the loop to the next one, if they're =, and if at any point they're !=, you're done, it returns false
+								</li>
+							</ul>
+						<li>
+							<table>
+								<tr>
+									<td>
+										<img src="arrays23.jpg">
+									</td>
+									<td>
+										<img src="arrays28.jpg" height="300">
+									</td>
+									<td>
+										<img src="arrays30.jpg" height="300">
+									</td>
+								</tr>
+							</table>
+						</li>
+							<ul>
+								<li>
+									Hint: Use a loop, have a variable called result to store the answer, and constantly add into each time through the loop
+								</li>
+							</ul>
+						<li>
+							<table>
+								<tr>
+									<td>
+										<img src="arrays24.jpg">
+									</td>
+									<td>
+										<img src="arrays29.jpg" height="300">
+									</td>
+								</tr>
+							</table>
+							
+						</li>
+							<ul>
+								<li>
+									Hint: Loop, and a variable that's storing your maximum number, and every time through the loop you'll need to update that variable if the current number  in the loop is greater than the old maximum
+								</li>
+							</ul>
+					</ul>
+
+				</li>
+			</ol>
+		</li>
+	</ol>
+<li class="section">Section 14: Javascript Basics: Objects</li>
+	<ol>
+		like arrays, objects are a data structure
+		<li>
+			Understand objects coneptually
+			<ul>
+				<li>
+					<img src="objects1.jpg">
+				</li>
+				<li>
+					If we wanted to model a single person, with their name, age, and city, an object is a better solution than an array
+				</li>
+				<li>
+					<img src="objects2.jpg">
+				</li>
+				<li>
+					Unlike arrays, object have no order, values are just stored under keys
+				</li>
+				<li>
+					<img src="objects3.jpg">
+				</li>
+				<li>
+					To retrieve data, we can do 2 things. we can bracket, similar to arrays (only difference is the string inside the [] instead of index number)
+				</li>
+				<li>
+					<img src="objects4.jpg">
+				</li>
+				<li>
+					<img src="objects5.jpg">
+				</li>
+				<li id="14.1">
+					Might be some cases where we'll need to use bracket notation instead of .. If the property starts with a number, or has a space, you'll have to bracket. In addition, brakcets let you lookup using a variable. I don't really understand what that means, but hopefully it'll become more clear. 
+				</li>
+				<li>
+					<img src="objects6.jpg">
+				</li>
+				<li>
+					We can update data assigned to property by accessing the property and then setting it equal to somehting new.
+				</li>
+				<li>
+					<img src="objects7.jpg">
+				</li>
+				<li>
+					<img src="objects8.jpg">
+				</li>
+				<li>
+					We can initialize an object 3 different ways. We can make an empy object with curly braces, then add stuff to it later one piece at a time. We can do it all at once (object literal notation), properties are written w/in the curly braces). Another way you won't see much, you can use the function newObject() set to a variable, and then add properties. 
+				</li>
+				<li>
+					<img src="objects9.jpg">
+				</li>
+				<li>
+					Objects can hold all data types
+				</li>
+			</ul>
+			<ul>
+				<strong>Compare arrays and objects</strong>
+				<li>
+					<table>
+						<tr>
+							
+							<td>
+								Arrays are used to store a list of data. Each item is bound to an index, it has a particular order
+							</td>
+							<td class="middle">
+								Objects are a gelatinous blob with a bunch of key value pairs floating inside. It's kind of like a dictionary: you look something up based off of a key and you get a corresponding value. 
+							</td>
+						</tr>
+						<tr>
+				
+							<td>
+								Syntax: ["", "", ""]
+							</td>
+							<td class="middle">
+								Syntax: { key: "value",}
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="objects10.jpg">
+							</td>
+							<td class="middle">
+								<img src="objects11.jpg">
+							</td>
+						</tr>
+						
+
+						<tr>	
+							<td>
+								To get data out of an array: 
+							</td>
+							<td class="middle">
+								To get data out of an object
+							</td>
+						</tr>
+						<tr>
+							<td>
+								You have to know the index of the data point you want to retrieve, ad put it in [] (it's just a special version of an object)
+							</td>
+							<td class="middle">
+								Type the object name, and put the property in quotes in brackets ["property"], or name.property
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="objects12.jpg">
+							</td>
+							<td class="middle">
+								<img src="objects13.jpg">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								To push just put name.push("new list item"). You have to be specific in where you want the new item to be added, in this case at the end of the list. 
+							</td>
+							<td class="middle">
+								To push  just say name["property"] = new value, or name.property=new value. There's no order, so you don't have to mess with an index. 
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="objects14.jpg">
+							</td>
+							<td class="middle">
+								<img src="objects15.jpg">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								 
+							</td>
+							<td class="middle">
+								<img src="objects16.jpg">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Updating items in an array, we need to find the index of the value we want to change, and reassign it
+							</td>
+							<td class="middle">
+								Updating items on an objects, you do a dot, so dog.property, and set it equal to something new. 
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="objects17.jpg">
+							</td>
+							<td class="middle">
+								<img src="objects18.jpg">
+							</td>
+						</tr>
+						
+					</table>
+				</li>
+				<li>
+					In conclusion: Both arrays and objects use key value pairs, but arrays are a special subset of key value pairs, where the keys are always numbers and they're always in order. An object the key can be anything, and there is no special order. 
+				</li>
+			</ul>
+		</li>
+		<li>
+			Write code using JS objects
+			<ol>
+				
+				<li>
+					<ul>
+						We can put objects in arrays, and arrays in objects. For exmple, here is a bunch of objects in an array: 
+						<li>
+							<img src="objects19.jpg">
+						</li>
+						<li>
+							But there's really no stopping, you could add an array within an object within an array: 
+						</li>
+						<li>
+							<img src="objects20.jpg">
+						</li>
+						<li>
+							Now in this example, let's say we want to access the comment "Cats are mediocre", the title of the first post in the array, you would do posts[0] to access the first object in the array, and then posts[0].title. Also notice when you did posts.length you got 2 , there are two pieces, 2 objects, in that array: 
+						</li>
+						<li>
+							<img src="objects21.jpg">
+						</li>
+						<li>
+							Another example, let's say we wanted to access "Go to hell, I hate you", the second comment in the second object in the array, it would be first posts[1] (remember that's index one, really it's the second object), and then posts[1].comments[1], there's an array within the value comments. Nesting is an important skill! 
+						</li>
+						<li>
+							<img src="objects22.jpg">
+						</li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						Exercises
+						<li>
+							<img src="objects23.jpg">
+						</li>
+						<li>
+							In the someObject empty object, both of these are valid wasy of adding key-value pairs. That first one though will make a key _name, not just name. 
+						</li>
+						<li>
+							The second piece their, var prop is setting just a normal variable, color. someObject[prop] is the proper way to add in a variable as a key & assign a value. The last piece, whie objects can hold any data type, you cannot use the . notation if your key starts with a #, you have to do the other way object["key"]=value.
+						</li>
+						<li>
+							<img src="objects24.jpg">
+						</li>
+						<li>
+							someObject.friends[0].name. We had to work our way inwards: 'what is someobject?' object, so. notation. Whats' the next layer? an array. malfoy is in the first one, so it's going to be [0]. What's next? Brackets, so it must be another object, but with only 1 key value pair. That gives us someObject.friends[0].name
+						</li>
+						<li>
+							<img src="objects25.jpg">
+						</li>
+						<li>
+							Here's what you came up with
+						</li>
+						<li>
+							<img src="objects26.jpg">
+						</li>
+						<li>
+							Here was his first solution: 
+						</li>
+						<li>
+							<img src="objects27.jpg">
+						</li>
+						<li>
+							And then how he cleaned it up with a function: 
+						</li>
+						<li>
+							<img src="objects28.jpg">
+						</li>
+						<li>
+							Both work. You can find the code here, <a href="moviedb.html">moviedb.html</a> and <a href="moviedb.js">moviedb.js</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a id="14.3">
+					Adding Methods to objects
+					</a>
+					<ul>
+						<li>
+							A method is just a function that is property inside of an object. Or rather, a funtion can be added as a value of a key:value pair in an object: 
+						</li>
+						<li>
+							<img src="objects29.jpg">
+						</li>
+						<li>
+							If we wanted to call the function, we would do it like this: obj.add(10,5)
+						</li>
+						<li>
+							This is what console.log is-console is an object, and log is a method (a function within an object) of that object
+						</li>
+						<li>
+							We'd use methods for many reasons (instead of defining our functions separately), it can help you keep your code organized, so you can group things logically together 
+						</li>
+						<li>
+							For example, look at this: 
+						</li>
+						<li>
+							<img src="objects30.jpg">
+						</li>
+						<li>
+							here you defined 2 functions, both named speak-this resulted in a name space collission where you lost the first one (that says woof), and it was overwritten my the meow one. To get around this so we can have 2 functions named speak, we can add each as a method to an object. 
+						</li>
+						<li>
+							You would add the function to the dogSpeak object like this: 
+						</li>
+						<li>
+							<img src="objects31.jpg">
+						</li>
+					</ul>
+				</li>
+				<li>
+					The Keyword This
+					<ul>
+						<li>
+							Sidenote: Underscore.js is a library of functions. What's nifty is that it groups all of the functions under the object (_). See <a href="https://underscorejs.org/">Underscore.js</a>
+						</li>
+						<li>
+							The keyword this is tricky, it means different things in different contexts. In one case, it is a way to refer to data within in aobject for a function defined in that object. So for example, here's how we've been doing it, defining an object, and then defining a function in the global window name space: 
+						</li>
+						<li>
+							<img src="objects32.jpg">
+						</li>
+						<li>
+							To add the function to the object, and to have it take the lit of data from that data property within the object, you'd do it like this: 
+						</li>
+						<li>
+							<img src="objects33.jpg">
+						</li>
+						<li>
+							Notice that you took out the argument, and you also replaced arr with this.data.
+						</li>
+						<li>
+							And then from there you'd access the function like this: 
+						</li>
+						<li>
+							<img src="objects34.jpg">
+						</li>
+						<li class="celebration">
+						You made it through Javascript! Wow!!!!!! On to the HTML+CSS+JS combo, now you're going places! 
+						</li>
+					</ul>
+				</li>
+
+			</ol>
+			
+		</li>
+
+	</ol>
+<li class="section">Section 15: DOM Manipulation</li>
+	<ol>
+		<li>
+			Define what the DOM is
+			<ul>
+				<li>
+					<img src="dom2.jpg">
+				</li>
+				<li>
+					A bunch of special js objects, js methods, functions, that we can use to interact with our HTML & CSS
+				</li>
+				<li>
+					With the DOM, the HTML is turned into a bunch of JS objects. Each object models one of the elements, tags, in HTML: 
+				</li>
+				<li>
+					<img src="dom3.jpg">
+				</li>
+				<li>
+					So we load up HTML in the browser, the browser displays things to us, but behind the scenes it actually makes this model of every single element with a js object. 
+				</li>
+				<li>
+					The entire model is contained within the object 'document'. So everything lives in that big object, document.
+				</li>
+			</ul>
+		</li>
+		<li>
+			Understand why DOM Manipulation is awesome
+			<ul>
+				<li>
+					<img src="dom1.jpg">
+				</li>
+				<li>
+					Here's a cool example, <a href="https://patatap.com/">Patatap.com</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			List a few examples of sites that use JS to manipulate the DOM
+			<ul>
+				<li>
+					Literally any site. 
+				</li>
+			</ul>
+		</li>
+		<li>
+			Understand the SELECT, then MANIPULATE workflow
+			<ol>
+				<li>
+					<ul> Overview
+						<li>
+							Just like CSS, where we write a selector & apply styles, with JS we also select elements, and we change properties (manipulate it)
+						</li>
+						<li>
+							<img src="dom4.jpg">
+						</li>
+						<li>
+							For our example, we're selcting this h1 'my header', and making it so it's pink
+						</li>
+						<li>
+							<img src="dom5.jpg">
+						</li>
+						<li>
+							So here document.querySelector("h1") is going to select the h1, and assign it to the variable h1
+						</li>
+						<li>
+							<img src="dom6.jpg">
+						</li>
+						<li>
+							That's the selecting. Manipulating, here you write your variable, h1.style.pink. Style is a property, color is a property. This is a general overview, just focus on the concepts. 
+						</li>
+						<li>
+							Here's another example: 
+						</li>
+						<li>
+							<img src="dom7.jpg">
+						</li>
+					</ul>
+				</li>
+				<li>
+					Select
+					<ul>
+						<li>
+							First to review the DOM: our entire DOM all live inside the document object, it's the root node. Se everything is going to start with document.
+						</li>
+						<li>
+							<img src="dom8.jpg">
+						</li>
+						<li>
+							These 5 methods have all been added in to the document objects, just like in that previous examples where we put a function in an object (remember, a function inside an object is called a method.)
+						</li>
+						<li>
+							Look at this demonstration: 
+						</li>
+						<li>
+							<img src="dom9.jpg">
+						</li>
+						<li>
+							Here is how we would select different pieces of this HTML code. So the first one here, all we're doing here is using document.getElementById.Highlight to select the li with the id of highlight.
+						</li>
+						<li>
+							<img src="dom10.jpg">
+						</li>
+						<li>
+							 The next one is by classname. Let's say you save it to a variable, it will be a list, it is an HTML collection, an array like thing with objects insides. We can do [0] and .length, but not forEach. 
+						</li>
+						<li>
+							<img src="dom11.jpg">
+						</li>
+						<li>
+							The next one is get elemtents by tag name
+						</li>
+						<li>
+							<img src="dom12.jpg">
+						</li>
+						<li>
+							The next one is different, it takes a CSS style selector. Basically instead of selecting the HTML elements themselves, you can take your already built CSS selectors and use those, yay. But this one will only select the first instance, not all in the document. 
+						</li>
+						<li>
+							<img src="dom14.jpg">
+						</li>
+						<li>
+							The next one is another query selector, but selects all given instances:
+						</li>
+						<li>
+							<img src="dom15.jpg">
+						</li>
+						<li>
+							<img src="dom16.jpg">
+						</li>
+						<li>
+							Exercises:
+						</li>
+						<li>
+							<img src="dom17.jpg">
+						</li>
+						<li>
+							var tags=document.getElementbyId("first");
+		
+						</li>
+						<li>
+							get element by class won't work, since htere is more than 1, same with tagname. 
+							Actually you could do it, you would do it like this: document.getElementsByClassName("special")[0]
+						</li>
+						<li>
+							var tags=document.querySelector("p");
+							It's just your basic CSS element selector, & this will only return the first instance
+						</li>
+						<li>
+							var tags=document.querySelector("#first");
+							This is pretty much the same as the first, you're just using the CSS Id selector
+						</li>
+						<li>
+							vartags+document.querySelector("h1 p");
+							This will select the first p nested in thefirs h1, and just the first instance
+						</li>
+					</ul>
+				</li>
+				<li>
+					Manipulate
+					<ol>
+						Manipulating style
+						<li>
+							<ul> 
+								<li>
+									<img src="dom18.jpg">
+								</li>
+								<li>
+									<img src="dom19.jpg">
+								</li>
+								<li>
+									The style property is a huge object with one property for every css property that we could set. We can write js that will style an element differntly than the css. 
+								</li>
+								<li>
+									The right side must be a string. Here's an example to illustrate, first we have our HTML with this basic webpage:
+								</li>
+								<li>
+									<img src="dom20.jpg">
+								</li>
+								<li>
+									We want to change the color and the border of the h1. First we need to selelct it: 
+								</li>
+								<li>
+									<img src="dom21.jpg">
+								</li>
+								<li>
+									Then we need to manipulate what we've selected. If you just look at h1.style, it's a huge document with ton's of properties. To manipulate it you need to select the specific property you want: 
+								</li>
+								<li>
+									<img src="dom22.jpg">
+								</li>
+								<li>
+									So here we've selected coor and changed it to yellow, and border and changed it to 5px solid pink. Again note that we had to put it in as a string, this is how you adjust and add properties in a js object. 
+								</li>
+								<li>
+									Now is this a good idea, setting your style with js instead of cs? 
+								</li>
+								<li>
+									<img src="dom23.jpg">
+								</li>
+								<li>
+									JS should control the behaivors. What's common is to define a Css class, and then toggle it on or off with JS.
+								</li>
+								<li>
+									<img src="dom24.jpg">
+								</li>
+								<li>
+									So here, instead of selecting an ID with JS & changing it and then applying a style, you define a class in CSS with that style you want (.some-class). Then to manipulate the highlight ID, just select it, and then manipulate it with tag.classList.add("some-class");
+								</li>
+								<li>
+									<img src="dom25.jpg">
+								</li>
+								<li>
+									A class list is defined in CSS, it's just a read only list, NOT an array. 
+								</li>
+								<li>
+									YOu can add, remove, or toggle (if the given element has that class already, it will remove it. If it doesn't have that class it will turn it on.)
+								</li>
+								<li>
+									<img src="dom26.jpg">
+								</li>
+								<li>
+									Remember that we have to use .add, becasue classlist is not an array. 
+								</li>
+							</ul>
+						</li>
+						<li>
+							Manipulating Text and Content
+							<ul>
+								<li>
+									First is textContent, it extracts all the text: 
+								</li>
+								<li>
+									<img src="dom27.jpg">
+								</li>
+								<li>
+									<img src="dom28.jpg">
+								</li>
+								<li>
+									Text content is a little dangerous-if you set it to a new string, it will erase HTML elements within
+								</li>
+								<li>
+									The property that fixes this is innerHTML
+								</li>
+								<li>
+									<img src="dom29.jpg">
+								</li>
+								<li>
+									<img src="dom30.jpg">
+								</li>
+								<li>
+									Here's an interesting nuance, text content will just treat it as text, inner HTML will recognize the inner html formatiting: 
+								</li>
+								<li>
+									<img src="dom31.jpg">
+								</li>
+								<li>
+									So in this exampe, for the frist one with just text contenet, the full h1 html notation showed up on the page. 
+								</li>
+							</ul>
+						</li>
+						<li>
+							Manipulating Attributes
+							<ul>
+								<li>
+									<img src="dom32.jpg">
+								</li>
+								<li>
+									So attribures are the green things in html (see html basics if you need a refresher). get attribute retrieves the value of a sepecific attribute, set attribute changes an attribute value. YOu need 2 arguments, the before and after. 
+								</li>
+								<li>
+									A demonstration: So virst we're first just selelcting the first image tag, and setting it to a variable. Then we use that variabe (img1), to get attribute,to see what the src link is.  
+								</li>
+								<li>
+									<img src="dom33.jpg">
+								</li>
+								<li>
+									Then to set that picture to something new, our first argument is the attribute (green in HTML), and the second argument the value we want to set it to. 
+								</li>
+								<li>
+									<img src="dom34.jpg">
+								</li>
+								<li>
+									Sidenote, let's say you did the same thing for an href in an a tag, you changed the link-that filler text that appears will remain unchanged. To fix that do this: 
+								</li>
+								<li>
+									<img src="dom35.jpg">
+								</li>
+							</ul>
+						</li>
+							Playing with Google Code Along
+							<ul>
+								<li><img src="dom36.jpg"></li>
+								<li><img src="dom37.jpg"></li>
+								<li><img src="dom38.jpg"></li>
+								<li><img src="dom39.jpg"></li>
+								<li><img src="dom40.jpg"></li>
+								<li><img src="dom41.jpg"></li>
+								<li><img src="dom42.jpg"></li>
+								<li><img src="dom43.jpg"></li>
+								<li><img src="dom44.jpg"></li>
+								<li><img src="dom45.jpg"></li>
+								<li><img src="dom46.jpg"></li>
+								<li><img src="dom47.jpg"></li>
+							</ul>
+						</li>
+					</ol>
+					
+				</li>
+			</ol>
+		</li>
+	</ol>
+<li class="section">Section 16: Advanced DOM Manipulation, Events</li>
+	<ul> 
+		Intro to Events
+		<li>
+			<img src="events1.jpg">
+		</li>
+		<li>
+			<img src="events2.jpg">
+		</li>
+		<li>
+			<img src="events3.jpg">
+		</li>
+		<li>
+			So in this, once you click on a button, that fucntion is run.
+		</li>
+		<li>
+			<img src="events4.jpg">
+		</li>
+		<li>
+			<img src="events5.jpg">
+		</li>
+		<li>
+			Here it is in action
+		</li>
+		<li>
+			<img src="events6.jpg">
+		</li>
+		<li>
+			You can have more than one listener on a given element. 
+		</li>
+		<li>
+			If you set an event on a parent element, for example a click on a ul, clicking anywhere on the ul will trigger
+		</li>
+		<li>
+			<img src="events7.jpg">
+		</li>
+		<li>
+			If I want to click the individual li, a simple way: you can attach one listener to each li. (later you'll do it a dif way w/ one listener)
+		</li>
+		<li>
+			<img src="events8.jpg">
+		</li>
+		<li>
+			Another way, you don't have to do an anonymous function
+		</li>
+		<li>
+			<img src="events9.jpg">
+		</li>
+		<li>
+			Normally you'd just do an anonymous function, unless you need to recycle the code at some point. 
+		</li>
+	</ul>
+	<ul>
+		Color Toggle Exercise
+		<li>
+			<img src="events10.jpg">
+		</li>
+		<li>
+			<table>
+				Here's how I solved it
+				<tr>
+					<td><img src="events11.jpg"></td>
+					<td><img src="events12.jpg"></td>
+					<td><img src="events13.jpg"></td>
+				</tr>	
+			</table>
+		</li>
+		<li>
+			For code, see <a href="colortoggle.html">colortoggle.html</a>, <a href="colortoggle.css">colortoggle.css</a>, and <a href="colortoggle.js">colortoggle.js</a>
+		</li>
+		<li>
+			This is how he did it
+		</li>
+		<li>
+			<img src="events14.jpg">
+		</li>
+		<li>
+			And this
+		</li>
+		<li>
+			<img src="events15.jpg">
+		</li>
+	</ul>
+	<ul>
+		Score Keeper Project: 
+		<li>
+			<img src="events16.jpg">
+		</li>
+		<li>
+			<img src="events17.jpg">
+		</li>
+		<li>
+			Solution
+			<table>
+				<tr>
+					<td><img src="events20.jpg" height="500"></td>
+					<td><img src="events18.jpg" height="700"></td>
+				</tr>
+				<tr>
+					<td></td>	
+					<td><img src="events19.jpg" height="500"></td>
+				</tr>
+			</table>
+		</li>
+		<li>
+			Other events
+			<ul>
+				<li>
+					Here is the <a href="https://developer.mozilla.org/en-US/docs/Web/Events">MDN reference</a> for more events
+				</li>
+				<li>
+					Mouseover is another type of event that fires as soon as you hover over something			
+				</li>
+				<li>
+					Here we're using mouseover and mouseout to create a hover effect. Without mouseout it just stays green, it doesn't go away when you take your mouse off
+				</li>
+				<li>
+					<img src="events21.jpg" height="300">
+				</li>
+				<li>
+					If you want to add it to all lis you make these changes: 
+				</li>
+				<li>
+					<img src="events22.jpg" height="300">
+				</li>
+				<li>
+					But really we don't want to do styling with js. So we can make these changes: 
+				</li>
+				<li>
+					<table>
+						<tr>
+							<td><img src="events23.jpg" height="400"></td>
+							<td><img src="events24.jpg" height="300"></td>
+						</tr>
+					</table>
+				</li>
+			</ul>
+		</li>
+	</ul>
+<li class="section">Section 17: Color Game Project</li>
+	<ul> RGB color game, for code see <a href="colorgame.html">colorgame.html</a>, <a href="colorgame.css">colorgame.css</a>, and <a href="colorgame.js">colorgame.js</a>
+		<li>
+			The guessing game, we try to match the RGB code to the corresponding color
+		</li>
+		<li>
+			<img src="color1.jpg">
+		</li>
+		<li>
+			RGB colors are counterintuitive-the first number is red, the middle green, and last blue. But when you mix red and green you get yellow!
+		</li>
+		<li>
+			<img src="color2.jpg">
+		</li>
+		<li>
+			I wonder if I can rework the code into a different kind of game. Like for example, <a href="https://www.fidelity.com/glossary/overview">glossary</a> has a list of finance terms. Can I rework the game so that at the top a random term appears, and then the boxes contain definitions, and you try to match the term to the correct definition? Maybe later! First I guess we would start by assigning some definitions to an array. Then we'd loop that arary and assign each one to a square. YOu'd have to use a different property. Then we'd just pick one of those definitions and assign it to a pickedDefinition variable. Then we would want to have the display in our html, the header that holds the definition. We'd want to select that and store it in a termDisplay variable. And then we'd set that variable equal, not to the definition array item. I think you'd actually need an array that stores the term & definitions as an object. Then you'd set the termDisplay equal to the term property of the picked difiniton. After that we can just add click listeners like normal. 
+		</li>
+		<li>
+			First we'll just make the 6 squares
+		</li>
+		<li>
+			<img src="color3.jpg">
+		</li>
+		<li>
+			Then we'll do some basic css styling so we can see them
+		</li>
+		<li>Notice how similar this is to the old image gallery project (right)</li>
+		<li>
+			<table>
+				<tr>
+					<td><img src="color4.jpg"></td>
+					<td> Old image gallery: <img src="mountaingallery2.jpg"></td>
+				</tr>
+			</table>
+		</li>
+		<li> The idea is similar, in the image gallery we wanted it so that the images would be split evenly across the page and be responsive. In our game we want them to be spit evenly in their div container, so we used the same width, float, and margin-the difference is that we needed padding too, because divs don't have content like images. </li>
+		<li>
+			We also centered the box container with margin 0 auto, and our page now looks like this:
+		</li>
+		<li>
+			<img src="color5.jpg" height="200">
+		</li>
+		<li>
+			Now we'll add colors with js. In the end game it's randomized, but here we'll just start by assigning a color: 
+		</li>
+		<li>
+			<img src="color6.jpg" height="300">
+		</li>
+		<li>
+			A few things. Note at the top that we assigned 6 hard colors, but later on we're going to randomize it by generating 3 random numbers. To assign our color array to our squares, we first selected all of the squares with the .square class. From there we did a for loop, and set it parallel to our color array (pretty cool). The result looks like this: 
+		</li>
+		<li>
+			<img src="color7.jpg">
+		</li>
+		<li>
+			Now we want to hard code where one of the colors is selected to be the goal, we'll randomize it later
+		</li>
+		<li>
+			<img src="color8.jpg">
+		</li>
+		<li>
+			We put a span around 'rgb' in the html and assigned it the class colorDisplay. So here all we did was set what we want our picked color to be, in this case colors[3]. Then we selected the span around rgb. After that we set that RGB text to be equal to whatever the picked color is. And now it looks like this: 
+		</li>
+		<li>
+			<img src="color9.jpg">
+		</li>
+		<li>
+			Okay, now the next piece, we want to add the logic for the click events. When  we click on a square, we want the code to figure out what color we clicked on and compare it to our picked color. If they're different we're going to change the color of the square to the body background color. And we know that if they're the same the player's won & we'll need to handle that one way, and if they're different they've lost & we need to handle that a different way. 
+		</li>
+		<li>
+			Here's what the code looks like: 
+		</li>
+		<li>
+			<table>
+				<tr>
+					<td><img src="color10.jpg" height="600"></td>
+					<td>Notice a few things here. We didn't add any new variables up top, we put everything in our for loop whwere we added the initial colors. First we grabbed the color of the clicked square and stored it in the variable clickedColor. And then we set up an if statement, were if the clickedColor matches the picked color we'll get an alert that says correct, otherwise wrong.  </td>
+				</tr>
+			</table>
+		</li>
+		<li>
+			And it looks like this
+		</li>
+		<li>
+			<img src="color11.jpg">
+		</li>
+		<li>
+			So the basic logic's working, yay!
+		</li>
+		<li>
+			Now we want to work on what happens when they click the wrong color, and the right color. We'll start with wrong color, easy enough, we just change the square to the background color. We also put a new span in a div in the HTML to hold the 'try again' 'correct' piece and parsed that in to the code too. For correct we want it to display correct, and get all the squares to match that picked color. We did that with a separate function. Here's the code: 
+		</li>
+		<li>
+			<img src="color12.jpg">
+		</li>
+		<li>
+			Now we need to work on picking a random color instead of making it colors[3]. We're going to make a function. 
+		</li>
+		<li>
+			<img src="color13.jpg">
+			<img src="color14.jpg">
+		</li>
+		<li>
+			Now this is stuff you've never seen before. Math.random will generate a number between 0 and what you multiply it by, but never reach that whole number. That's why we used colors.length, we only want to go up to 5, and it has 6. math.floor chops off the decimal bit. Then all we did was assign that random number to a variable and have it return colors[random] (remember before it was colors[3]).
+		</li>
+		<li>
+			Now we want it so we don't use those same 6 colors every time. This we'll do with another function. 2 functions really. The mini function generates random colors. 
+		</li>
+		<li>
+			<img src="color15.jpg">
+		</li>
+		<li>
+			<img src="color16.jpg">
+		</li>
+		<li>
+			So on the bottom there it generates 2 random numbers between 0 and 255 and puts them in the variables r,g,b. Then the function returns the rgb format. The top function pushes random numbers into an array. Notice that you put the big function to the variable that held the rgb array originally, for now set with 6 in there. 
+		</li>
+		<li>
+			Now we want to set the new color button. It has a few features. If you've won again it'll ask 'play again'. When you click new colors it will reset the game. You can also click this button in the middle of the game. The text also changes if you hover. So first we'll add that middle stripe. 
+		</li>
+		<li>
+			So first we need to add a bit to the html: 
+		</li>
+		<li>
+			<img src="color19.jpg">
+		</li>
+		<li>
+			From there here's the reset button logic. It resets the game by resetting pickedColor to the pick color function, and the colors array to generate random colors. It also resest the display of colors, and then changes the top h1 color back to background. 
+		</li>
+		<li>
+			<img src="color17.jpg">
+		</li>
+		<li>
+			Sidenote, we also went down into the first for loop, and made it so that if you win the new colors button changes to say 'play again?'
+		</li>
+		<li>
+			<img src="color18.jpg">
+		</li>
+		<li>
+			Now we need to add in the easy and hard button. Easy will generate 3 squares, Hard 6. First we just add in 2 buttons to the html. Then we set it up so that they turn blue and stay blue when clicked (we put a .selected css class of background blue). Here's the code: 
+		</li>
+		<li>
+			<img src="color20.jpg">
+		</li>
+		<li>
+			So we made 2 buttons, they're in the html. Then we made some code to define what happens when you click on each one. For the easy we want it to be highlighted, and hard not to be. Then we want to reset the game with 3 colors, so we do similar stuff to what we did before, but twith the loop we add an if statement to the loop that sets teh last three squares to display none. ON hte hard button we do a similar thing, but for the for loop it's just hte normal one, and we set everything to block to make sure we get rid of none from the other. 
+		</li>
+		<li>
+			One thing we need to fix with the logic, when we click easy mode, but then click play again, it resets back to 6 instead of 3. We need to make a variable that keeps track of how many squares. 
+		</li>
+		<li>
+			<img src="color21.jpg">
+		</li>
+		<li>
+			And then you went through your code and fixed a few bits: 
+		</li>
+		<li>
+			<img src="color22.jpg">
+			<img src="color23.jpg">
+			<img src="color24.jpg">
+		</li>
+		<li>
+			Now time for some spooky stylin'! 
+		</li>
+		<li>
+			I'm not going to go through it piece by piece, here's the result & code: 
+		</li>
+		<li>
+			<table>
+				<tr>
+					<td><img src="color25.jpg"></td>
+					<td><img src="colors27.jpg"></td>
+					<td><img src="color26.jpg"></td>
+				</tr>
+			</table>
+		</li>
+		<li>
+			Pretty cool! 
+		</li>
+		<li>
+			We did a few minor changes: we made it so that try again disappears when you click play again, and then made it so that play again changes to new colors after you click it (just go in the js code). We also made it so in the css the button doesn't have that annoying border, with border none. The real meat here is refactoring, we're going to refactor our code now. 
+		</li>
+		<li>
+			First we're going to remove the id for the easy/hard buttons and give them a class 'mode' instead.
+		</li>
+		<li>
+			<img src="color27.jpg">
+		</li>
+		<li>
+			Then we're going to remove the old id variables, and replace them with a single one for the new class. Then we'll take out the old button code, and refactor it with a for loop: 
+		</li>
+		<li>
+			<img src="color28.jpg">
+		</li>
+		<li>
+			Notice in the for loop we're setting that thing where it stays blue when clicked; the modebuttons[0]/[1] remove the blue from both buttons (just to be safe), and then add it to the one that was clicked
+		</li>
+		<li>
+			Next we're going to make an overall function called reset, since we're doing that in multiple places. We're copying the resetButton code into the fucntion, with the one change being changing this. to resetButton. Then we also need to make a small change to our button code. we still need to differentiate between easy and hard with the variable num squares. So we set a simple if statement:
+		</li>
+		<li>
+			<img src="color29.jpg">
+		</li>
+		<li>
+			One slight change, we can actually shorten that if statement with a ternary operator: 
+		</li>
+		<li>
+			<img src="color30.jpg">
+		</li>
+		<li>
+			Now we've got a problem, when we click easy or hard, it doesn't actually change the display itself. We add an if statement in the function, saying that if colors[i] holds a number, to display block and the color, otherwise none-this will work because of the 3/6 num squares variable. We had to add the block thing at the top, because when we were resetting it'd get stuck on 3. 
+		</li>
+		<li>
+			<img src="color31.jpg">
+		</li>
+		<li>
+			Now we can replace our reset Button code with our new function. It really dries up the code! 
+		</li>
+		<li>
+			<img src="color32.jpg">
+		</li>
+		<li>
+			From there we'll create an initialize function and a few other things, I'm not going to go into it. You're done!
+		</li>
+		<li class="celebration">
+			You finished! On to Jquery! 
+		</li>
+	</ul>
+<li class="section">Section 18: Intro to jQuery</li>
+	<ol>
+		<li>
+			Introduction
+			<ul>
+				It's a Javascript library
+				<li>
+					<img src="j1.jpg">
+				</li>
+				<li>
+					It's debated, see <a target="_blank href="http://youmightnotneedjquery.com/">youmightnotneedjquery</a>
+				</li>
+				<li>
+					<img src="j2.jpg">
+				</li>
+				<li>
+					<img src="j3.jpg">
+				</li>
+				<li>
+					So pretty similar to CSS, either put the link in from the host site, or download it locally. 
+				</li>
+				<li>
+					To download it, go to <a href="https://jquery.com/download/" target="_blank">jQuery download</a>, and just download the newest compressed. In this demo we grabbed the uncompressed too so we could look at it. 
+				</li>
+				<li>
+					<img src="j4.jpg">
+				</li>
+				<li>
+					Save jQuery in a folder within your project to separate it out, we called it lib, and link it this way: 
+				</li>
+				<li>
+					<img src="j5.jpg">
+				</li>
+				<li>
+					You can also find an online cdn, just google 'jquery cdn'. 
+				</li>
+				<li>
+					<img src="j6.jpg">
+				</li>
+			</ul>
+		</li>
+		<li>
+			Selecting
+			<ul>
+				<li>
+					<img src="j7.jpg">
+				</li>
+				<li>
+					JQuery selector is very similar to querySelectorAll, where we give it a css style selector
+				</li>
+				<li>
+					<img src="j8.jpg">
+				</li>
+				<li>
+					For example
+				</li>
+				<li>
+					<img src="j9.jpg">
+				</li>
+				<li>
+					So $ is a function, it's like alert or console.log
+				</li>
+				<li>
+					Example: let's select all th h1s: 
+				</li>
+				<li>
+					<img src="j10.jpg">
+				</li>
+				<li>
+					Notice that it returns a list, even when there's only one, & the format was super simple $("h1")-it's pretty much like querySelectorAll
+				</li>
+				<li>
+					See what it looks like when there's more than one, it puts it into a list: 
+				</li>
+				<li>
+					<img src="j11.jpg">
+				</li>
+				<li>
+					It's just like querySelector; look at these different ways of selecting this a tag: 
+				</li>
+				<li>
+					<img src="j12.jpg">
+				</li>
+				<li>
+					Now let's move on to our first method
+				</li>
+				<li>
+					<img src="j13.jpg">
+				</li>
+				<li>
+					If you need a refresher on methods, see <a href="#14.3">Adding methods to objects</a> from section 14. 
+				</li>
+				<LI>
+					Here is an example of using a jquery selector and then method
+				</LI>
+				<li>
+					<img src="j14.jpg">
+				</li>
+				<li>
+					At the top we're selecting everything with the id 'special', then using the css method to change its border property to 2 px solid red. 
+				</li>
+				<li>
+					<img src="j15.jpg">
+				</li>
+				<li>
+					Here's a similar one in action, we selected the h1 and changed the color to yellow. It's good to remember how we'd do this just with js! ---->
+				</li>
+				<li>
+					<img src="j16.jpg" height="100">
+				</li>
+				<li>
+					Here we selected the h1, and we don't have a css method, so we used the style method, and then said to change the property color to the value orange (for a refresher on how to update properties in js, see <a href="#14.1">Updating data</a>. 
+				</li>
+				<li>
+					Now the jquery thing is actually more powerful than js here, because rahter than just bein able to pass in a property, you can pass in an objects with a bunch of properties with assigned values. 
+				</li>
+				<li>
+					<img src="j17.jpg">
+				</li>
+				<li>
+					Here's an example of that: you created the object styles, and gave it a bunch of prpoerties and values. Then you selected the h2 and applied the entire object. In js we'd have to do 3 lines for this.  
+				</li>
+				<li>
+					<img src="j18.jpg">
+				</li>
+				<li>
+					We can also style multiple elements at once: 
+				</li>
+				<li>
+					<img src="j19.jpg">
+				</li>
+				<li>
+					For this li, it looped through this array automatically, we didn't have to do a for loop
+				</li>
+				<li>
+					<img src="j20.jpg">
+				</li>
+				<li>
+					So for this example, this is what the js code would be, setting a variable and using a for loop: 
+				</li>
+				<li>
+					<img src="j21.jpg">
+				</li>
+				<li>
+					Here are some more jquery examples: 
+				</li>
+				<li>
+					<img src="j22.jpg">
+				</li>
+			</ul>
+			<ul>
+				Selector Exercise: here is the code, <a href="jqselector.html">jqselector.html</a>, <a href="jqselector.js">jqselector.js</a>
+				<li>
+					<img src="j23.jpg">
+				</li>
+				<li>
+					Here is the solution
+				</li>
+				<li>
+					<img src="j24.jpg" height="200">
+				</li>
+				<li>
+					A few things, to include jquery you included it as a script at the top, but also put in a js script at the end, then wrote your jquery stuff in that js file. Notice that :first is how you select the first element, and that everything has "" around it. For first (a jquery shortcut), but the css first-of-type is actually faster 
+				</li>
+			</ul>
+		</li>
+		<li>
+			Common JQuery methods
+		</li>
+			<ul>
+				<li>
+					<img src="j25.jpg">
+				</li>
+				<li> 
+					To find documentation about these different methods go to  <a href="https://api.jquery.com/">Jquery API</a>
+				</li>
+				<li>
+					Let's go through these one by one
+				</li>
+				<ol>
+					<li>
+						val
+					</li>
+						<ul>
+							<li>
+								Helps extract the value from an input
+							</li>
+							<li>
+								<img src="j33.jpg">
+							</li>
+							<li>
+								So if we input something in this text box, we can pull that value:
+							</li>
+							<li>
+								<img src="j34.jpg">
+							</li>
+							<li>
+								you can change it like this
+							</li>
+							<li>
+								<img src="j35.jpg">
+							</li>
+							<li>
+								One common use case, if you want to erase to reset: 
+							</li>
+							<li>
+								<img src="j36.jpg">
+							</li>
+						</ul>
+					<li>
+						text
+					</li>
+						<ul>
+							<li>
+								So it's basically the jQuery version of text content, you can strip the text away from the html
+							</li>
+							<li>
+								<img src="j26.jpg">
+							</li>
+							<li>
+								<img src="j27.jpg">
+							</li>
+							<li>
+								You can also replace text, like this: 
+							</li>
+							<li>
+								<img src="j28.jpg">
+							</li>
+						</ul>
+					<li>
+						attr
+					</li>
+						<ul>
+							<li>
+								We can retrieve or set an attribute
+							</li>
+							<li>
+								<img src="j31.jpg">
+							</li>
+							<li>
+								So you can put in what the attribute is and set a new value, or add a new attribute entirely. You can also set multiple at once:
+							</li>
+							<li>
+								<img src="j32.jpg">
+							</li>
+						</ul>
+					<li>
+						html
+					</li>
+						<ul>
+							<li>
+								This one is like inner html, it pulls out the html code, and you can replace html content just like text
+							</li>
+							<li>
+								<img src="j29.jpg">
+							</li>
+							<li>
+								And here's how you'd replace: 
+							</li>
+							<li>
+								<img src="j30.jpg">
+							</li>
+							<li>
+								Notice that you first selecte the ul, and it returned the inner html, the 3 lis. Then when you replaced the ul html you put in new li code.
+							</li>
+							<li>
+								Text won't do this, text is considered html safe, it's not going to change the html
+							</li>
+						</ul>
+					<li>
+						addClass
+					</li>
+						<ul>
+							<li>
+								With this you can add a class to a bunch of elements at once
+							</li>
+							<li>
+								<img src="j37.jpg">
+							</li>
+							
+						</ul>
+					<li>
+						removeClass
+					</li>
+						<ul>
+							This is pretty much the same as ad class, but you're reverse
+						</ul>
+					<li>
+						toggleClass
+					</li>
+						<ul>
+							<li>
+								This works like classList.toggle
+							</li>
+							<li>
+								If elements don't have a class yet, it will add, if they do, it'll remove
+							</li>
+						</ul>
+				</ol>
+			</ul>
+	</ol>
+<li class="section">Section 19: Advanced jQuery</li>
+	<ol>
+		<li>
+			Events
+			<ul>
+				<li>
+					<img src="j38.jpg">
+				</li>
+				<li>
+					Click
+				</li>
+				<li>
+					Click method allows you to add a click listener, ie if this is clicked, this code is run: 
+				</li>
+				<li>
+					<img src="j39.jpg">
+				</li>
+				<li>
+					Here's an example:
+				</li>
+				<li>
+					<img src="j40.jpg">
+				</li>
+				<li>
+					Also sidenote here, where in js you'd use this, you use jquery this $(this
+				</li>
+				<li>
+					<img src="j41.jpg">
+				</li>
+				<li>
+					Keypress
+				</li>
+				<li>
+					<img src="j42.jpg">
+				</li>
+				<li>
+					It works just like click
+				</li>
+				<li>
+					<img src="j43.jpg">
+				</li>
+				<li>
+					This will apply if any key is pressed:
+				</li>
+				<li>
+					<img src="j44.jpg">
+				</li>
+				<li>
+					In the real world, let's say we want to clear out the text only if the user hits enter. First we need to know the key code, find that <a href="https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes">Here</a>
+				</li>
+				<li>
+					Then you would write this code,e vent is your variable (which you could name anything)  and you use the keycode for enter, 13
+				</li>
+				<li>
+					<img src="j45.jpg">
+				</li>
+				<li>
+					On
+				</li>
+				<li>
+					<img src="j46.jpg">
+				</li>
+				<li>
+					This is the most commonly used. You select something, and when a type of event happens, code is run
+				</li>
+				<li>
+					<img src="j47.jpg">
+				</li>
+				<li>
+					We can use on to do a click, like this:
+				</li>
+				<li>
+					<img src="j48.jpg">
+				</li>
+				<li>
+					We can also do a keypress:
+				</li>
+				<li>
+					<img src="j49.jpg">
+				</li>
+				<li>
+					One more example, let's say when we hover over a button we change the font to be bolded:
+				</li>
+				<li>
+					<img src="j50.jpg">
+				</li>
+				<li>
+					click will get the job done, but on is better for this reason:
+				</li>
+				<li>
+					<img src="j51.jpg">
+				</li>
+			</ul>
+		</li>
+		<li>
+			Effects
+			<ul>
+				<li>
+					So first we'll try fadeout
+				</li>
+				<li>
+					<img src="j52.jpg">
+				</li>
+				<li>
+					Now if we want to fade something out when we click a button:
+				</li>
+				<li>
+					<img src="j53.jpg">
+				</li>
+				<li>
+					One issue here, it's not deleting the elements, just hiding. If we want to do that: 
+				</li>
+				<li>
+					<img src="j54.jpg">
+				</li>
+				<li>
+					You have to include it, toehrwise t won't wait for the fade to complete
+				</li>
+				<li>
+					Similar to fade out is fade toggle: 
+				</li>
+				<li>
+					<img src="j55.jpg">
+				</li>
+				<li>
+					Some others, slideUp, slideToggle
+				</li>
+				<li class="celebration">
+					You finished JQuery! 
+				</li>
+			</ul>
+		</li>
+	</ol>
+<li class="section">Section 20: Todo List Projects</li>
+	<ul>
+		<li>
+			<img src="t1.jpg">
+		</li>
+		<li>
+			We're going to organize our library better. If you create a project folder with folders inside it, you can drag the whole project folder into sublime and get this nice table of contents: 
+		</li>
+		<li>
+			<img src="t2.jpg">
+		</li>
+		<li>
+			To link things within folders, you use /, like this: 
+		</li>
+		<li>
+			<img src="t3.jpg">
+		</li>
+		<li>
+			With everything linked the whole thing looks like this: 
+		</li>
+		<li>
+			<img src="t4.jpg">
+		</li>
+	</ul>
+<li class="section">Section 21: OPTIONAL Project: Patatap Clone</li>
+<li class="section">Section 22: Backend Basics</li>
+<li class="section">Section 23: The Command Line</li>
+<li class="section">Section 24: Node JS</li>
+<li class="section">Section 25: Server Side Frameworks</li>
+<li class="section">Section 26: Intermediate Express</li>
+<li class="section">Section 27: Working With API's</li>
+<li class="section">Section 28: YelpCamp: Basics</li>
+<li class="section">Section 29: Databases</li>
+<li class="section">Section 30: YelpCamp: Data Persistence</li>
+<li class="section">Section 31: RESTful Routing</li>
+<li class="section">Section 32: Data Associations</li>
+<li class="section">Section 33: YelpCamp: Comments</li>
+<li class="section">Section 34: Authentication</li>
+<li class="section">Section 35: YelpCamp: Adding Authentication</li>
+<li class="section">Section 36: YelpCamp: Cleaning Up</li>
+<li class="section">Section 37: YelpCamp: Update and Destroy</li>
+<li class="section">Section 38: YelpCamp: UI Improvements</li>
+<li class="section">Section 39: Git and Github</li>
+<li class="section">Section 40: Deploying</li>
+<li class="section">Section 41: JavaScript: The Tricky Stuff</li>
+
+<li>This is for you: Ideas for portfolio</li>
+	<ul>
+		<li>
+			Create a really nice example form, kinda ike the complex form you did way back in HTML. But focus on design, have a great call to action-make it sleek & elegant.
+		</li>
+		<li>
+			For Head Cozy website, create a cool spinner wheel where you get a coupon-but not just a code, you have to log in first, and then you can spin once a day, and the coupon is applied to your cart for that day, no codes involved. 
+		</li>
+		<li>
+			Responsive inventory, where if someone orders something not only does it reduce it on the page, but it reduces it in a comphrehensive viasual invesntory management with trakcers like in the tody app
+		</li>
+		<li>
+			Have a calendar to do app where it functions like how you schedule things: The calendar you can put in all of your to dos, but you also have to say how long they will take. Then it will auto generate a beautiful hourly schedule with an inspirational quote on the top (or maybe a mission statement that you set)
+		</li>
+		<li>
+			Have a date night question game generator
+		</li>
+		<li>
+			A historical study, where you're looking for things that predicted stock movements, or maybe taking technical analysis, and studying whether certain things have proved true in the past, what the best predictors are...basically a giant algorithm finding 'how can I predict the future' or 'what were some characteristics of big growth companies in their early years'. Actually yeah-studying early years of big growth companies & finding what they had in common, and using that to create an algorithm to find similar. 
+		</li>
+		<li>
+			Chesterton App, generates quotes
+		</li>
+		<li>
+			Chore app
+		</li>
+		<li>
+			Wonder app
+		</li>
+		<li>
+			Calming Spaces app
+		</li>
+		<li>
+			Vision Board app with goal setting
+		</li>
+		<li>
+			Goal setting
+		</li>
+	</ul>
+</ol>
+<script type="text/javascript" src="TableofContents.js"></script>
+</body>
+</html>

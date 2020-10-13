@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Labels Example</title>
+</head>
+<body>
+<!-- With this one you create a label and nest the input inside -->
+	<form action="/sign-in-url" method="post">
+		<label>Username: <input type="text"></label>
+		<label>Password: <input type="password" name=""></label>
+		<button>Login</button>
+	</form>
+<!-- With this one you have 2 lines. One for the label, and you use the
+for attribute to make is something you can assign. Then in the input you add
+an id attribute with that for name, and it assigns that label to that input.
+Visually impaired folks use this sort of thing, their screen reader picks up on
+it. -->
+	<form action="/sign-in-url" method="post">
+		<label for="username"> Username:</label>
+		<input id="username" type="text">
+		<label for="password">Password</label>
+		<input id="password" type="password">
+	</form>
+
+</body>
+</html>
